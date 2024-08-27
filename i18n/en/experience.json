@@ -1,0 +1,34 @@
+{
+    "experiences": [
+        {
+            "company": "PT. MNC Sky Vision",
+            "country": "Indonesia",
+            "emp_type": "PKL",
+            "position": "",
+            "site_url": "",
+            "start_date": "",
+            "end_date": "",
+            "state": "",
+            "works": [
+                "",
+                ""
+            ],
+            "is_work_here": "false"
+        },
+        {
+            "company": "Dinas Kominfo",
+            "country": "Indonesia",
+            "emp_type": "Magang",
+            "position": "",
+            "site_url": "",
+            "start_date": "",
+            "end_date": "",
+            "state": "",
+            "works": [
+                "",
+                ""
+            ],
+            "is_work_here": "false"
+        }
+    ]
+}

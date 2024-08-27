@@ -1,0 +1,44 @@
+{
+    "skills": [
+        {
+            "img": "https://img.icons8.com/?size=512&id=13679&format=png",
+            "name": "Java"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=55251&format=png",
+            "name": "C Sharp"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=KMIk5YXYTmwT&format=png",
+            "name": "Visual Basic"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=ylXrZF2zxsFE&format=png",
+            "name": "PHP"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=13441&format=png",
+            "name": "Python"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=40669&format=png",
+            "name": "C++"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=5pu47piHKg1I&format=png",
+            "name": "Flutter"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png",
+            "name": "MySQL"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=62452&format=png",
+            "name": "Firebase"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png",
+            "name": "Figma"
+        }
+    ]
+}
