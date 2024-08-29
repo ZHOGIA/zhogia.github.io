@@ -24685,7 +24685,7 @@ case"projects.projects.2.github_link":return""
 case"projects.projects.2.is_personal":return p
 case"projects.projects.2.name":return u.b0
 case"projects.projects.2.playstore_link":return""
-case"projects.projects.2.tech.0":return o
+case"projects.projects.2.tech.0":return"C Sharp"
 case"projects.projects.2.tech.1":return n
 case"projects.projects.2.tech.2":return m
 case"projects.projects.2.type":return l
@@ -24838,7 +24838,7 @@ case"projects.projects.2.github_link":return""
 case"projects.projects.2.is_personal":return o
 case"projects.projects.2.name":return u.h
 case"projects.projects.2.playstore_link":return""
-case"projects.projects.2.tech.0":return n
+case"projects.projects.2.tech.0":return"C Sharp"
 case"projects.projects.2.tech.1":return m
 case"projects.projects.2.tech.2":return l
 case"projects.projects.2.type":return k
@@ -81617,7 +81617,7 @@ gep(){return A.a([],t.s)},
 gjv(){return"true"},
 ga2(a){return u.b0},
 gjI(){return""},
-ghx(){return A.a(["Java","Firebase","Figma"],t.s)},
+ghx(){return A.a(["C Sharp","Firebase","Figma"],t.s)},
 gaj(a){return"Aplikasi"}}
 A.atG.prototype={
 gji(){return u.E},
@@ -81801,7 +81801,7 @@ gep(){return A.a([],t.s)},
 gjv(){return"true"},
 ga2(a){return u.h},
 gjI(){return""},
-ghx(){return A.a(["Java","Firebase","Figma"],t.s)},
+ghx(){return A.a(["C Sharp","Firebase","Figma"],t.s)},
 gaj(a){return"Application"}}
 A.atF.prototype={
 gji(){return u.E},
