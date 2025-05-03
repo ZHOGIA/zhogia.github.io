@@ -3,30 +3,31 @@
         {
             "company": "PT. MNC Sky Vision",
             "country": "Indonesia",
-            "emp_type": "PKL",
-            "position": "",
-            "site_url": "",
-            "start_date": "",
-            "end_date": "",
-            "state": "",
+            "emp_type": "Apprenticeship",
+            "position": "File Management",
+            "site_url": "https://mncvisionnetworks.com/",
+            "start_date": "2018-01-01T00:00:00.000",
+            "end_date": "2018-04-01T00:00:00.000",
+            "state": "Jakarta Barat",
             "works": [
-                "",
-                ""
+                "Filtering and processing data, then inputting it into Excel.",
+                "Performing regular backups to prevent file loss or corruption."
             ],
             "is_work_here": "false"
         },
         {
             "company": "Dinas Kominfo",
             "country": "Indonesia",
-            "emp_type": "Magang",
-            "position": "",
-            "site_url": "",
-            "start_date": "",
-            "end_date": "",
-            "state": "",
+            "emp_type": "Apprenticeship",
+            "position": "Chiper",
+            "site_url": "https://kominfo.serangkota.go.id/",
+            "start_date": "2022-05-01T00:00:00.000",
+            "end_date": "2022-06-01T00:00:00.000",
+            "state": "Kec. Curug, Kota Serang",
             "works": [
-                "",
-                ""
+                "Analyzing data and websites to determine their usability or lack thereof.",
+                "Inputting data from website analysis results.",
+                "Monitoring website applications to prevent potential breaches."
             ],
             "is_work_here": "false"
         }

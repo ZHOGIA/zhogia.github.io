@@ -1,13 +1,13 @@
 {
     "projects": [
         {
-            "cover_img": "",
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/portofolio.png",
             "description": "",
-            "external_link": "",
-            "github_link": "",
+            "external_link": "https://zhogia.github.io/",
+            "github_link": "https://github.com/ZHOGIA/zhogia.github.io",
             "images": [],
             "is_personal": "true",
-            "name": "Portofolio Zhogi Achmad Panusunan",
+            "name": "Portfolio Saya",
             "playstore_link": "",
             "tech": [
                 "Dart",
@@ -16,19 +16,73 @@
             "type": "Website"
         },
         {
-            "cover_img": "",
-            "description": "",
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png",
+            "description": "Final thesis project.",
             "external_link": "",
             "github_link": "",
             "images": [],
             "is_personal": "true",
-            "name": "Portofolio Zhogi Achmad Panusunan",
+            "name": "E-Learning (Learn online wherever you are).",
             "playstore_link": "",
             "tech": [
-                "Dart",
-                "Flutter"
+                "Java",
+                "Firebase",
+                "Figma"
+            ],
+            "type": "Application"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png",
+            "description": "Creating a game with Unity (DUOCARS).",
+            "external_link": "",
+            "github_link": "https://github.com/ZHOGIA/DUOCARS",
+            "images": [],
+            "is_personal": "true",
+            "name": "Creating a simple game application using the Unity engine.",
+            "playstore_link": "",
+            "tech": [
+                "C Sharp",
+                "Firebase",
+                "Figma"
+            ],
+            "type": "Application"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png",
+            "description": "Creating a modern-looking stoplamp using an LED Matrix and ESP8266.",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "LED Matrix on a motorcycle stoplamp.",
+            "playstore_link": "",
+            "tech": [
+                "C++",
+                "C",
+                "ESP8266",
+                "HTML",
+                "Python"
             ],
             "type": "Website"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png",
+            "description": "A motor project using ESP32 to remotely start the motor via a mobile device and track its location.",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "To remotely control and track a motor using a mobile device.",
+            "playstore_link": "",
+            "tech": [
+                "Java",
+                "Firebase",
+                "Figma",
+                "ESP32",
+                "C",
+                "C++"
+            ],
+            "type": "Application"
         }
     ]
 }

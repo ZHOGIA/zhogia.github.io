@@ -132,7 +132,7 @@ class _DesktopBodyState extends State<DesktopBody> {
                 width: 15,
               ),
               Text(
-                'Fajar Muhammad Al-Hijri',
+                'Zhogi Achmad Panusunan',
                 style: kTextStyleWhite.copyWith(
                   fontSize: 15,
                 ),

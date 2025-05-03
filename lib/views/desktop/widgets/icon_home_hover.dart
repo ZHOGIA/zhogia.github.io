@@ -42,13 +42,13 @@ class _IconHomeHoverUtilState extends State<IconHomeHoverUtil> {
         onTap: () async {
           if (widget.icon == MdiIcons.linkedin) {
             ExternalAppUtil.redirectToLink(
-                url: "https://www.linkedin.com/in/fajaralhijr");
+                url: "https://www.linkedin.com/in/zhogia");
           } else if (widget.icon == MdiIcons.github) {
             ExternalAppUtil.redirectToLink(
-                url: "https://github.com/fajarmuhamad616");
+                url: "https://github.com/ZHOGIA");
           } else if (widget.icon == MdiIcons.instagram) {
             ExternalAppUtil.redirectToLink(
-                url: "https://instagram.com/fajaralhijr");
+                url: "https://instagram.com/zhogia");
           }
         },
         child: Padding(

@@ -1,10 +1,10 @@
 {
     "projects": [
         {
-            "cover_img": "",
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/portofolio.png",
             "description": "",
-            "external_link": "",
-            "github_link": "",
+            "external_link": "https://zhogia.github.io/",
+            "github_link": "https://github.com/ZHOGIA/zhogia.github.io",
             "images": [],
             "is_personal": "true",
             "name": "Portofolio Zhogi Achmad Panusunan",
@@ -16,19 +16,73 @@
             "type": "Website"
         },
         {
-            "cover_img": "",
-            "description": "",
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png",
+            "description": "Proyek akhir skripsi.",
             "external_link": "",
             "github_link": "",
             "images": [],
             "is_personal": "true",
-            "name": "Portofolio Zhogi Achmad Panusunan",
+            "name": "E-Learning (Belajar online dimanapun kamu berada).",
             "playstore_link": "",
             "tech": [
-                "Dart",
-                "Flutter"
+                "Java",
+                "Firebase",
+                "Figma"
+            ],
+            "type": "Aplikasi"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png",
+            "description": "Membuat game dengan Unity (DUOCARS)",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "Membuat aplikasi game sederhana menggunakan Unity engine",
+            "playstore_link": "",
+            "tech": [
+                "C Sharp",
+                "Firebase",
+                "Figma"
+            ],
+            "type": "Aplikasi"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png",
+            "description": "Membuat stoplamp agar terlihat kekinian menggunakan LED Matrix dan ESP8266",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "LED Matrix pada stoplamp motor",
+            "playstore_link": "",
+            "tech": [
+                "C++",
+                "C",
+                "ESP8266",
+                "HTML",
+                "Python"
             ],
             "type": "Website"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png",
+            "description": "Proyek motor dengan ESP32 untuk meremote motor agar bisa dinyalakan dengan seluler serta melacak keberadaan motor",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "Meremote dan melacak motor menggunakan seluler",
+            "playstore_link": "",
+            "tech": [
+                "Java",
+                "Firebase",
+                "Figma",
+                "ESP32",
+                "C",
+                "C++"
+            ],
+            "type": "Aplikasi"
         }
     ]
 }

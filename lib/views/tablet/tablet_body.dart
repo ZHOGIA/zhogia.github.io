@@ -144,7 +144,7 @@ class _TabletBodyState extends State<TabletBody> {
                 width: 15,
               ),
               Text(
-                'Fajar Muhammad Al-Hijri',
+                'Zhogi Achmad Panusunan',
                 style: kTextStyleWhite.copyWith(
                   fontSize: 15,
                 ),

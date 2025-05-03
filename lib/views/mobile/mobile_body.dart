@@ -89,7 +89,7 @@ class _MobileBodyState extends State<MobileBody> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'Fajar Muhammad Al-Hijri',
+                          'Zhogi Achmad Panusunan',
                           style: kMiniTitleTextStyleWhite.copyWith(
                             fontSize: 15,
                           ),

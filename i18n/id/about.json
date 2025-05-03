@@ -1,21 +1,25 @@
 {
-    "about_me": "Saya lulusan Universitas Banten Jaya sebagai Teknik Informatika",
+    "about_me": "Saya lulusan Universitas Banten Jaya sebagai Sarjana Teknik Informatika dan pernah mengikuti program Workshop IT untuk mendalami Android Native dan Multiplatfrom. Sejak kuliah saya aktif di komunitas Computer Community dan Robotik. \n\nSebagai Software atau Hardware Engineer, saya selalu belajar secara mendalam dan mengasah logika coding untuk mengumpulkan keterampilan dan pengalaman dengan penelitian dan pembangunan aplikasi sistem frontend atau backend. Saya belum memiliki pengalaman kerja tetapi saya memiliki pengalaman dalam membuat hardware atau software yang bersifat otodidak dan memiliki keinginan yang sangat tinggi untuk belajar hal baru. \n\nSelain itu, saya memiliki pengalaman dalam penerapan dengan Arduino untuk mengembangkan sebuah hardware yang dapat digunakan untuk kegunaan sehari hari.",
     "about_cards": [
         {
-            "content": "Membuat",
-            "tittle": "Software Engineer"
+            "content": "Membuat kode aplikasi berkualitas tinggi dan dapat digunakan kembali.",
+            "title": "Software Engineer"
         },
         {
-            "content": "Membuat",
-            "tittle": "Software Engineer"
+            "content": "Menggunakan Java, Saya dapat mengembangkan sistem backend.",
+            "title": "Backend Developer"
         },
         {
-            "content": "Membuat",
-            "tittle": "Software Engineer"
+            "content": "Menggunakan Arduino, Saya dapat mengembangkan sebuah alat yang berkualitas tinggi dan dapat digunakan oleh pengguna.",
+            "title": "Hardware Engineer"
         },
         {
-            "content": "Membuat",
-            "tittle": "Software Engineer"
+            "content": "Menggunakan Android Studio & Flutter, Saya dapat mengembangkan Aplikasi dan situs Web.",
+            "title": "Mobile Apps Developer"
+        },
+        {
+            "content": "Saya meneliti dan menganalisa serta melakukan troubleshooting",
+            "title": "IT Troubleshooting"
         }
     ]
 }

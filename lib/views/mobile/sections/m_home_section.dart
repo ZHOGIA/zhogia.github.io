@@ -129,7 +129,7 @@ class _MHomeSectionState extends State<MHomeSection> {
             ],
           ),
           Text(
-            'Engineer.',
+            'Hardware.',
             style: kTitleTextStyle.copyWith(
               fontSize: 30,
             ),

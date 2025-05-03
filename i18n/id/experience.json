@@ -4,14 +4,14 @@
             "company": "PT. MNC Sky Vision",
             "country": "Indonesia",
             "emp_type": "Magang",
-            "position": "",
-            "site_url": "",
-            "start_date": "",
-            "end_date": "",
-            "state": "",
+            "position": "Managemen File",
+            "site_url": "https://mncvisionnetworks.com/",
+            "start_date": "2018-01-01T00:00:00.000",
+            "end_date": "2018-04-01T00:00:00.000",
+            "state": "Jakarta Barat",
             "works": [
-                "",
-                ""
+                "Menyaring data dan mengolah informasi data serta menginputkan kedalam Excel.",
+                "Melakukan backup secara berkala untuk menghindari file yang hilang atau rusak."
             ],
             "is_work_here": "false"
         },
@@ -19,14 +19,15 @@
             "company": "Dinas Kominfo",
             "country": "Indonesia",
             "emp_type": "Magang",
-            "position": "",
-            "site_url": "",
-            "start_date": "",
-            "end_date": "",
-            "state": "",
+            "position": "Persandian",
+            "site_url": "https://kominfo.serangkota.go.id/",
+            "start_date": "2022-05-01T00:00:00.000",
+            "end_date": "2022-06-01T00:00:00.000",
+            "state": "Kec. Curug, Kota Serang",
             "works": [
-                "",
-                ""
+                "Menganalisis data dan website serta mencari website yang layak digunakan atau tidak layak.",
+                "Mengimput data dari hasil menganalisis website.",
+                "Memantau website aplikasi untuk mencegah adanya pembobolan pada suatu aplikasi website."
             ],
             "is_work_here": "false"
         }

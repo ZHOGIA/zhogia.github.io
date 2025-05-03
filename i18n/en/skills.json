@@ -9,7 +9,7 @@
             "name": "C Sharp"
         },
         {
-            "img": "https://img.icons8.com/?size=512&id=KMIk5YXYTmwT&format=png",
+            "img": "https://img.icons8.com/?size=512&id=QSOostPggwCK&format=png",
             "name": "Visual Basic"
         },
         {
@@ -27,6 +27,18 @@
         {
             "img": "https://img.icons8.com/?size=512&id=5pu47piHKg1I&format=png",
             "name": "Flutter"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=EgOU93v1DHjU&format=png",
+            "name": "Android Studio"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=13444&format=png",
+            "name": "Arduino"
+        },
+        {
+            "img": "https://img.icons8.com/?size=512&id=ezj3zaVtImPg&format=png",
+            "name": "Visual Studio"
         },
         {
             "img": "https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png",

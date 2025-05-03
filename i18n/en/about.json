@@ -1,21 +1,25 @@
 {
-    "about_me": "I graduated from Universitas Banten Jaya with a degree in Informatics Engineering.",
+    "about_me": "I graduated from Universitas Banten Jaya with a Bachelor's degree in Informatics Engineering and participated in an IT Workshop to deepen my knowledge of Android Native and Multiplatform development. During my studies, I was actively involved in the Computer Community and Robotics. \n\nAs a Software or Hardware Engineer, I am committed to deep learning and refining my coding logic to acquire skills and experience through research and the development of frontend or backend systems. While I don't have formal work experience, I have self-taught experience in creating both hardware and software, and I possess a strong desire to learn new things. \n\nAdditionally, I have hands-on experience with Arduino, where I've developed hardware solutions for everyday use.",
     "about_cards": [
         {
-            "content": "Made",
-            "tittle": "Software Engineer"
+            "content": "Writing high-quality, reusable application code.",
+            "title": "Software Engineer"
         },
         {
-            "content": "Made",
-            "tittle": "Software Engineer"
+            "content": "Using Java, I can develop backend systems.",
+            "title": "Backend Developer"
         },
         {
-            "content": "Made",
-            "tittle": "Software Engineer"
+            "content": "Using Arduino, I can develop a high-quality tool that is user-friendly.",
+            "title": "Hardware Engineer"
         },
         {
-            "content": "Made",
-            "tittle": "Software Engineer"
+            "content": "Using Android Studio & Flutter, I can develop applications and websites.",
+            "title": "Mobile Apps Developer"
+        },
+        {
+            "content": "I research, analyze, and perform troubleshooting.",
+            "title": "IT Troubleshooting"
         }
     ]
 }
