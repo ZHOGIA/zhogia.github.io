@@ -107,14 +107,14 @@ class _THomeSectionState extends State<THomeSection> {
                               ),
                             ),
                             TypewriterAnimatedText(
-                              "Flutter",
+                              "Hardware",
                               speed: const Duration(milliseconds: 200),
                               textStyle: kTitleTextStyle.copyWith(
-                                color: Colors.blue,
+                                color: Colors.orange,
                                 shadows: [
                                   Shadow(
                                     blurRadius: 7.0,
-                                    color: Colors.blue.shade900,
+                                    color: Colors.orange.shade900,
                                   ),
                                 ],
                               ),

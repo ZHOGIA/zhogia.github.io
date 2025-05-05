@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 216 (108 per locale)
+/// Strings: 312 (156 per locale)
 ///
-/// Built on 2024-08-27 at 13:22 UTC
+/// Built on 2024-08-29 at 10:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -163,12 +163,13 @@ class _LocaleAboutId {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get about_me => 'Saya lulusan Universitas Banten Jaya sebagai Teknik Informatika';
+	String get about_me => 'Saya lulusan Universitas Banten Jaya sebagai Sarjana Teknik Informatika dan pernah mengikuti program Workshop IT untuk mendalami Android Native dan Multiplatfrom. Sejak kuliah saya aktif di komunitas Computer Community dan Robotik. \n\nSebagai Software atau Hardware Engineer, saya selalu belajar secara mendalam dan mengasah logika coding untuk mengumpulkan keterampilan dan pengalaman dengan penelitian dan pembangunan aplikasi sistem frontend atau backend. Saya belum memiliki pengalaman kerja tetapi saya memiliki pengalaman dalam membuat hardware atau software yang bersifat otodidak dan memiliki keinginan yang sangat tinggi untuk belajar hal baru. \n\nSelain itu, saya memiliki pengalaman dalam penerapan dengan Arduino untuk mengembangkan sebuah hardware yang dapat digunakan untuk kegunaan sehari hari.';
 	List<dynamic> get about_cards => [
 		_LocaleAbout$aboutCards$0i0$Id._(_root),
 		_LocaleAbout$aboutCards$0i1$Id._(_root),
 		_LocaleAbout$aboutCards$0i2$Id._(_root),
 		_LocaleAbout$aboutCards$0i3$Id._(_root),
+		_LocaleAbout$aboutCards$0i4$Id._(_root),
 	];
 }
 
@@ -218,7 +219,7 @@ class _LocaleGeneralId {
 	String get introduce_home_my_name => 'Zhogi Achmad Panusunan';
 	String get hi_home_section => 'Hai! Nama saya ';
 	String get introduce_home_section1 => 'Saya seorang Software Engineer yang berfokus pada aplikasi backend dan seluler.';
-	String get introduce_home_section2 => 'Saya mengembangkan sistem backend untuk maskapai penerbangan dan membangun aplikasi perangkat lunak interaktif yang dapat berjalan di berbagai platform.';
+	String get introduce_home_section2 => 'Saya mengembangkan sistem backend untuk membangun aplikasi perangkat lunak interaktif yang dapat berjalan di berbagai platform.';
 	String get browse_projects_home_section => 'Lihat Proyek';
 	String get required_input_field => 'Bagian ini diperlukan';
 	String get copy => 'Disalin ke papan klip';
@@ -234,6 +235,9 @@ class _LocaleProjectsId {
 	List<dynamic> get projects => [
 		_LocaleProjects$projects$0i0$Id._(_root),
 		_LocaleProjects$projects$0i1$Id._(_root),
+		_LocaleProjects$projects$0i2$Id._(_root),
+		_LocaleProjects$projects$0i3$Id._(_root),
+		_LocaleProjects$projects$0i4$Id._(_root),
 	];
 }
 
@@ -255,6 +259,9 @@ class _LocaleSkillsId {
 		_LocaleSkills$skills$0i7$Id._(_root),
 		_LocaleSkills$skills$0i8$Id._(_root),
 		_LocaleSkills$skills$0i9$Id._(_root),
+		_LocaleSkills$skills$0i10$Id._(_root),
+		_LocaleSkills$skills$0i11$Id._(_root),
+		_LocaleSkills$skills$0i12$Id._(_root),
 	];
 }
 
@@ -283,8 +290,8 @@ class _LocaleAbout$aboutCards$0i0$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get content => 'Membuat';
-	String get tittle => 'Software Engineer';
+	String get content => 'Membuat kode aplikasi berkualitas tinggi dan dapat digunakan kembali.';
+	String get title => 'Software Engineer';
 }
 
 // Path: about.about_cards.1
@@ -294,8 +301,8 @@ class _LocaleAbout$aboutCards$0i1$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get content => 'Membuat';
-	String get tittle => 'Software Engineer';
+	String get content => 'Menggunakan Java, Saya dapat mengembangkan sistem backend.';
+	String get title => 'Backend Developer';
 }
 
 // Path: about.about_cards.2
@@ -305,8 +312,8 @@ class _LocaleAbout$aboutCards$0i2$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get content => 'Membuat';
-	String get tittle => 'Software Engineer';
+	String get content => 'Menggunakan Arduino, Saya dapat mengembangkan sebuah alat yang berkualitas tinggi dan dapat digunakan oleh pengguna.';
+	String get title => 'Hardware Engineer';
 }
 
 // Path: about.about_cards.3
@@ -316,8 +323,19 @@ class _LocaleAbout$aboutCards$0i3$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get content => 'Membuat';
-	String get tittle => 'Software Engineer';
+	String get content => 'Menggunakan Android Studio & Flutter, Saya dapat mengembangkan Aplikasi dan situs Web.';
+	String get title => 'Mobile Apps Developer';
+}
+
+// Path: about.about_cards.4
+class _LocaleAbout$aboutCards$0i4$Id {
+	_LocaleAbout$aboutCards$0i4$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get content => 'Saya meneliti dan menganalisa serta melakukan troubleshooting';
+	String get title => 'IT Troubleshooting';
 }
 
 // Path: experience.experiences.0
@@ -330,14 +348,14 @@ class _LocaleExperience$experiences$0i0$Id {
 	String get company => 'PT. MNC Sky Vision';
 	String get country => 'Indonesia';
 	String get emp_type => 'Magang';
-	String get position => '';
-	String get site_url => '';
-	String get start_date => '';
-	String get end_date => '';
-	String get state => '';
+	String get position => 'Managemen File';
+	String get site_url => 'https://mncvisionnetworks.com/';
+	String get start_date => '2018-01-01T00:00:00.000';
+	String get end_date => '2018-04-01T00:00:00.000';
+	String get state => 'Jakarta Barat';
 	List<String> get works => [
-		'',
-		'',
+		'Menyaring data dan mengolah informasi data serta menginputkan kedalam Excel.',
+		'Melakukan backup secara berkala untuk menghindari file yang hilang atau rusak.',
 	];
 	String get is_work_here => 'false';
 }
@@ -352,14 +370,15 @@ class _LocaleExperience$experiences$0i1$Id {
 	String get company => 'Dinas Kominfo';
 	String get country => 'Indonesia';
 	String get emp_type => 'Magang';
-	String get position => '';
-	String get site_url => '';
-	String get start_date => '';
-	String get end_date => '';
-	String get state => '';
+	String get position => 'Persandian';
+	String get site_url => 'https://kominfo.serangkota.go.id/';
+	String get start_date => '2022-05-01T00:00:00.000';
+	String get end_date => '2022-06-01T00:00:00.000';
+	String get state => 'Kec. Curug, Kota Serang';
 	List<String> get works => [
-		'',
-		'',
+		'Menganalisis data dan website serta mencari website yang layak digunakan atau tidak layak.',
+		'Mengimput data dari hasil menganalisis website.',
+		'Memantau website aplikasi untuk mencegah adanya pembobolan pada suatu aplikasi website.',
 	];
 	String get is_work_here => 'false';
 }
@@ -371,10 +390,10 @@ class _LocaleProjects$projects$0i0$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => '';
+	String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/portofolio.png';
 	String get description => '';
-	String get external_link => '';
-	String get github_link => '';
+	String get external_link => 'https://zhogia.github.io/';
+	String get github_link => 'https://github.com/ZHOGIA/zhogia.github.io';
 	List<String> get images => [
 	];
 	String get is_personal => 'true';
@@ -394,20 +413,98 @@ class _LocaleProjects$projects$0i1$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => '';
-	String get description => '';
+	String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png';
+	String get description => 'Proyek akhir skripsi.';
 	String get external_link => '';
 	String get github_link => '';
 	List<String> get images => [
 	];
 	String get is_personal => 'true';
-	String get name => 'Portofolio Zhogi Achmad Panusunan';
+	String get name => 'E-Learning (Belajar online dimanapun kamu berada).';
 	String get playstore_link => '';
 	List<String> get tech => [
-		'Dart',
-		'Flutter',
+		'Java',
+		'Firebase',
+		'Figma',
+	];
+	String get type => 'Aplikasi';
+}
+
+// Path: projects.projects.2
+class _LocaleProjects$projects$0i2$Id {
+	_LocaleProjects$projects$0i2$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png';
+	String get description => 'Membuat game dengan Unity (DUOCARS)';
+	String get external_link => '';
+	String get github_link => '';
+	List<String> get images => [
+	];
+	String get is_personal => 'true';
+	String get name => 'Membuat aplikasi game sederhana menggunakan Unity engine';
+	String get playstore_link => '';
+	List<String> get tech => [
+		'C Sharp',
+		'Firebase',
+		'Figma',
+	];
+	String get type => 'Aplikasi';
+}
+
+// Path: projects.projects.3
+class _LocaleProjects$projects$0i3$Id {
+	_LocaleProjects$projects$0i3$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png';
+	String get description => 'Membuat stoplamp agar terlihat kekinian menggunakan LED Matrix dan ESP8266';
+	String get external_link => '';
+	String get github_link => '';
+	List<String> get images => [
+	];
+	String get is_personal => 'true';
+	String get name => 'LED Matrix pada stoplamp motor';
+	String get playstore_link => '';
+	List<String> get tech => [
+		'C++',
+		'C',
+		'ESP8266',
+		'HTML',
+		'Python',
 	];
 	String get type => 'Website';
+}
+
+// Path: projects.projects.4
+class _LocaleProjects$projects$0i4$Id {
+	_LocaleProjects$projects$0i4$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png';
+	String get description => 'Proyek motor dengan ESP32 untuk meremote motor agar bisa dinyalakan dengan seluler serta melacak keberadaan motor';
+	String get external_link => '';
+	String get github_link => '';
+	List<String> get images => [
+	];
+	String get is_personal => 'true';
+	String get name => 'Meremote dan melacak motor menggunakan seluler';
+	String get playstore_link => '';
+	List<String> get tech => [
+		'Java',
+		'Firebase',
+		'Figma',
+		'ESP32',
+		'C',
+		'C++',
+	];
+	String get type => 'Aplikasi';
 }
 
 // Path: skills.skills.0
@@ -439,7 +536,7 @@ class _LocaleSkills$skills$0i2$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get img => 'https://img.icons8.com/?size=512&id=KMIk5YXYTmwT&format=png';
+	String get img => 'https://img.icons8.com/?size=512&id=QSOostPggwCK&format=png';
 	String get name => 'Visual Basic';
 }
 
@@ -494,8 +591,8 @@ class _LocaleSkills$skills$0i7$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get img => 'https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png';
-	String get name => 'MySQL';
+	String get img => 'https://img.icons8.com/?size=512&id=EgOU93v1DHjU&format=png';
+	String get name => 'Android Studio';
 }
 
 // Path: skills.skills.8
@@ -505,13 +602,46 @@ class _LocaleSkills$skills$0i8$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get img => 'https://img.icons8.com/?size=512&id=62452&format=png';
-	String get name => 'Firebase';
+	String get img => 'https://img.icons8.com/?size=512&id=13444&format=png';
+	String get name => 'Arduino';
 }
 
 // Path: skills.skills.9
 class _LocaleSkills$skills$0i9$Id {
 	_LocaleSkills$skills$0i9$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get img => 'https://img.icons8.com/?size=512&id=ezj3zaVtImPg&format=png';
+	String get name => 'Visual Studio';
+}
+
+// Path: skills.skills.10
+class _LocaleSkills$skills$0i10$Id {
+	_LocaleSkills$skills$0i10$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get img => 'https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png';
+	String get name => 'MySQL';
+}
+
+// Path: skills.skills.11
+class _LocaleSkills$skills$0i11$Id {
+	_LocaleSkills$skills$0i11$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get img => 'https://img.icons8.com/?size=512&id=62452&format=png';
+	String get name => 'Firebase';
+}
+
+// Path: skills.skills.12
+class _LocaleSkills$skills$0i12$Id {
+	_LocaleSkills$skills$0i12$Id._(this._root);
 
 	final Translations _root; // ignore: unused_field
 
@@ -559,12 +689,13 @@ class _LocaleAboutEn implements _LocaleAboutId {
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get about_me => 'I graduated from Universitas Banten Jaya with a degree in Informatics Engineering.';
+	@override String get about_me => 'I graduated from Universitas Banten Jaya with a Bachelor\'s degree in Informatics Engineering and participated in an IT Workshop to deepen my knowledge of Android Native and Multiplatform development. During my studies, I was actively involved in the Computer Community and Robotics. \n\nAs a Software or Hardware Engineer, I am committed to deep learning and refining my coding logic to acquire skills and experience through research and the development of frontend or backend systems. While I don\'t have formal work experience, I have self-taught experience in creating both hardware and software, and I possess a strong desire to learn new things. \n\nAdditionally, I have hands-on experience with Arduino, where I\'ve developed hardware solutions for everyday use.';
 	@override List<dynamic> get about_cards => [
 		_LocaleAbout$aboutCards$0i0$En._(_root),
 		_LocaleAbout$aboutCards$0i1$En._(_root),
 		_LocaleAbout$aboutCards$0i2$En._(_root),
 		_LocaleAbout$aboutCards$0i3$En._(_root),
+		_LocaleAbout$aboutCards$0i4$En._(_root),
 	];
 }
 
@@ -614,7 +745,7 @@ class _LocaleGeneralEn implements _LocaleGeneralId {
 	@override String get introduce_home_my_name => 'Zhogi Achmad Panusunan';
 	@override String get hi_home_section => 'Hi, my name ';
 	@override String get introduce_home_section1 => 'I am a Software Engineer focusing in backend and mobile apps.';
-	@override String get introduce_home_section2 => 'I developing a backend system for airlines and build a interactive software applications with run on cross platforms.';
+	@override String get introduce_home_section2 => 'I developing a backend system to build a interactive software applications with run on cross platforms.';
 	@override String get browse_projects_home_section => 'See Projects';
 	@override String get required_input_field => 'This field is required';
 	@override String get copy => 'Copied to clipboard';
@@ -630,6 +761,9 @@ class _LocaleProjectsEn implements _LocaleProjectsId {
 	@override List<dynamic> get projects => [
 		_LocaleProjects$projects$0i0$En._(_root),
 		_LocaleProjects$projects$0i1$En._(_root),
+		_LocaleProjects$projects$0i2$En._(_root),
+		_LocaleProjects$projects$0i3$En._(_root),
+		_LocaleProjects$projects$0i4$En._(_root),
 	];
 }
 
@@ -651,6 +785,9 @@ class _LocaleSkillsEn implements _LocaleSkillsId {
 		_LocaleSkills$skills$0i7$En._(_root),
 		_LocaleSkills$skills$0i8$En._(_root),
 		_LocaleSkills$skills$0i9$En._(_root),
+		_LocaleSkills$skills$0i10$En._(_root),
+		_LocaleSkills$skills$0i11$En._(_root),
+		_LocaleSkills$skills$0i12$En._(_root),
 	];
 }
 
@@ -679,8 +816,8 @@ class _LocaleAbout$aboutCards$0i0$En implements _LocaleAbout$aboutCards$0i0$Id {
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get content => 'Made';
-	@override String get tittle => 'Software Engineer';
+	@override String get content => 'Writing high-quality, reusable application code.';
+	@override String get title => 'Software Engineer';
 }
 
 // Path: about.about_cards.1
@@ -690,8 +827,8 @@ class _LocaleAbout$aboutCards$0i1$En implements _LocaleAbout$aboutCards$0i1$Id {
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get content => 'Made';
-	@override String get tittle => 'Software Engineer';
+	@override String get content => 'Using Java, I can develop backend systems.';
+	@override String get title => 'Backend Developer';
 }
 
 // Path: about.about_cards.2
@@ -701,8 +838,8 @@ class _LocaleAbout$aboutCards$0i2$En implements _LocaleAbout$aboutCards$0i2$Id {
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get content => 'Made';
-	@override String get tittle => 'Software Engineer';
+	@override String get content => 'Using Arduino, I can develop a high-quality tool that is user-friendly.';
+	@override String get title => 'Hardware Engineer';
 }
 
 // Path: about.about_cards.3
@@ -712,8 +849,19 @@ class _LocaleAbout$aboutCards$0i3$En implements _LocaleAbout$aboutCards$0i3$Id {
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get content => 'Made';
-	@override String get tittle => 'Software Engineer';
+	@override String get content => 'Using Android Studio & Flutter, I can develop applications and websites.';
+	@override String get title => 'Mobile Apps Developer';
+}
+
+// Path: about.about_cards.4
+class _LocaleAbout$aboutCards$0i4$En implements _LocaleAbout$aboutCards$0i4$Id {
+	_LocaleAbout$aboutCards$0i4$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get content => 'I research, analyze, and perform troubleshooting.';
+	@override String get title => 'IT Troubleshooting';
 }
 
 // Path: experience.experiences.0
@@ -725,15 +873,15 @@ class _LocaleExperience$experiences$0i0$En implements _LocaleExperience$experien
 	// Translations
 	@override String get company => 'PT. MNC Sky Vision';
 	@override String get country => 'Indonesia';
-	@override String get emp_type => 'PKL';
-	@override String get position => '';
-	@override String get site_url => '';
-	@override String get start_date => '';
-	@override String get end_date => '';
-	@override String get state => '';
+	@override String get emp_type => 'Apprenticeship';
+	@override String get position => 'File Management';
+	@override String get site_url => 'https://mncvisionnetworks.com/';
+	@override String get start_date => '2018-01-01T00:00:00.000';
+	@override String get end_date => '2018-04-01T00:00:00.000';
+	@override String get state => 'Jakarta Barat';
 	@override List<String> get works => [
-		'',
-		'',
+		'Filtering and processing data, then inputting it into Excel.',
+		'Performing regular backups to prevent file loss or corruption.',
 	];
 	@override String get is_work_here => 'false';
 }
@@ -747,15 +895,16 @@ class _LocaleExperience$experiences$0i1$En implements _LocaleExperience$experien
 	// Translations
 	@override String get company => 'Dinas Kominfo';
 	@override String get country => 'Indonesia';
-	@override String get emp_type => 'Magang';
-	@override String get position => '';
-	@override String get site_url => '';
-	@override String get start_date => '';
-	@override String get end_date => '';
-	@override String get state => '';
+	@override String get emp_type => 'Apprenticeship';
+	@override String get position => 'Chiper';
+	@override String get site_url => 'https://kominfo.serangkota.go.id/';
+	@override String get start_date => '2022-05-01T00:00:00.000';
+	@override String get end_date => '2022-06-01T00:00:00.000';
+	@override String get state => 'Kec. Curug, Kota Serang';
 	@override List<String> get works => [
-		'',
-		'',
+		'Analyzing data and websites to determine their usability or lack thereof.',
+		'Inputting data from website analysis results.',
+		'Monitoring website applications to prevent potential breaches.',
 	];
 	@override String get is_work_here => 'false';
 }
@@ -767,10 +916,10 @@ class _LocaleProjects$projects$0i0$En implements _LocaleProjects$projects$0i0$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => '';
+	@override String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/portofolio.png';
 	@override String get description => '';
-	@override String get external_link => '';
-	@override String get github_link => '';
+	@override String get external_link => 'https://zhogia.github.io/';
+	@override String get github_link => 'https://github.com/ZHOGIA/zhogia.github.io';
 	@override List<String> get images => [
 	];
 	@override String get is_personal => 'true';
@@ -790,20 +939,98 @@ class _LocaleProjects$projects$0i1$En implements _LocaleProjects$projects$0i1$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => '';
-	@override String get description => '';
+	@override String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png';
+	@override String get description => 'Final thesis project.';
 	@override String get external_link => '';
 	@override String get github_link => '';
 	@override List<String> get images => [
 	];
 	@override String get is_personal => 'true';
-	@override String get name => 'Portofolio Zhogi Achmad Panusunan';
+	@override String get name => 'E-Learning (Learn online wherever you are).';
 	@override String get playstore_link => '';
 	@override List<String> get tech => [
-		'Dart',
-		'Flutter',
+		'Java',
+		'Firebase',
+		'Figma',
+	];
+	@override String get type => 'Application';
+}
+
+// Path: projects.projects.2
+class _LocaleProjects$projects$0i2$En implements _LocaleProjects$projects$0i2$Id {
+	_LocaleProjects$projects$0i2$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png';
+	@override String get description => 'Creating a game with Unity (DUOCARS).';
+	@override String get external_link => '';
+	@override String get github_link => '';
+	@override List<String> get images => [
+	];
+	@override String get is_personal => 'true';
+	@override String get name => 'Creating a simple game application using the Unity engine.';
+	@override String get playstore_link => '';
+	@override List<String> get tech => [
+		'C Sharp',
+		'Firebase',
+		'Figma',
+	];
+	@override String get type => 'Application';
+}
+
+// Path: projects.projects.3
+class _LocaleProjects$projects$0i3$En implements _LocaleProjects$projects$0i3$Id {
+	_LocaleProjects$projects$0i3$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png';
+	@override String get description => 'Creating a modern-looking stoplamp using an LED Matrix and ESP8266.';
+	@override String get external_link => '';
+	@override String get github_link => '';
+	@override List<String> get images => [
+	];
+	@override String get is_personal => 'true';
+	@override String get name => 'LED Matrix on a motorcycle stoplamp.';
+	@override String get playstore_link => '';
+	@override List<String> get tech => [
+		'C++',
+		'C',
+		'ESP8266',
+		'HTML',
+		'Python',
 	];
 	@override String get type => 'Website';
+}
+
+// Path: projects.projects.4
+class _LocaleProjects$projects$0i4$En implements _LocaleProjects$projects$0i4$Id {
+	_LocaleProjects$projects$0i4$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png';
+	@override String get description => 'A motor project using ESP32 to remotely start the motor via a mobile device and track its location.';
+	@override String get external_link => '';
+	@override String get github_link => '';
+	@override List<String> get images => [
+	];
+	@override String get is_personal => 'true';
+	@override String get name => 'To remotely control and track a motor using a mobile device.';
+	@override String get playstore_link => '';
+	@override List<String> get tech => [
+		'Java',
+		'Firebase',
+		'Figma',
+		'ESP32',
+		'C',
+		'C++',
+	];
+	@override String get type => 'Application';
 }
 
 // Path: skills.skills.0
@@ -835,7 +1062,7 @@ class _LocaleSkills$skills$0i2$En implements _LocaleSkills$skills$0i2$Id {
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get img => 'https://img.icons8.com/?size=512&id=KMIk5YXYTmwT&format=png';
+	@override String get img => 'https://img.icons8.com/?size=512&id=QSOostPggwCK&format=png';
 	@override String get name => 'Visual Basic';
 }
 
@@ -890,8 +1117,8 @@ class _LocaleSkills$skills$0i7$En implements _LocaleSkills$skills$0i7$Id {
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get img => 'https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png';
-	@override String get name => 'MySQL';
+	@override String get img => 'https://img.icons8.com/?size=512&id=EgOU93v1DHjU&format=png';
+	@override String get name => 'Android Studio';
 }
 
 // Path: skills.skills.8
@@ -901,13 +1128,46 @@ class _LocaleSkills$skills$0i8$En implements _LocaleSkills$skills$0i8$Id {
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get img => 'https://img.icons8.com/?size=512&id=62452&format=png';
-	@override String get name => 'Firebase';
+	@override String get img => 'https://img.icons8.com/?size=512&id=13444&format=png';
+	@override String get name => 'Arduino';
 }
 
 // Path: skills.skills.9
 class _LocaleSkills$skills$0i9$En implements _LocaleSkills$skills$0i9$Id {
 	_LocaleSkills$skills$0i9$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get img => 'https://img.icons8.com/?size=512&id=ezj3zaVtImPg&format=png';
+	@override String get name => 'Visual Studio';
+}
+
+// Path: skills.skills.10
+class _LocaleSkills$skills$0i10$En implements _LocaleSkills$skills$0i10$Id {
+	_LocaleSkills$skills$0i10$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get img => 'https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png';
+	@override String get name => 'MySQL';
+}
+
+// Path: skills.skills.11
+class _LocaleSkills$skills$0i11$En implements _LocaleSkills$skills$0i11$Id {
+	_LocaleSkills$skills$0i11$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get img => 'https://img.icons8.com/?size=512&id=62452&format=png';
+	@override String get name => 'Firebase';
+}
+
+// Path: skills.skills.12
+class _LocaleSkills$skills$0i12$En implements _LocaleSkills$skills$0i12$Id {
+	_LocaleSkills$skills$0i12$En._(this._root);
 
 	@override final _LocaleEn _root; // ignore: unused_field
 
@@ -922,36 +1182,39 @@ class _LocaleSkills$skills$0i9$En implements _LocaleSkills$skills$0i9$Id {
 extension on Translations {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
-			case 'about.about_me': return 'Saya lulusan Universitas Banten Jaya sebagai Teknik Informatika';
-			case 'about.about_cards.0.content': return 'Membuat';
-			case 'about.about_cards.0.tittle': return 'Software Engineer';
-			case 'about.about_cards.1.content': return 'Membuat';
-			case 'about.about_cards.1.tittle': return 'Software Engineer';
-			case 'about.about_cards.2.content': return 'Membuat';
-			case 'about.about_cards.2.tittle': return 'Software Engineer';
-			case 'about.about_cards.3.content': return 'Membuat';
-			case 'about.about_cards.3.tittle': return 'Software Engineer';
+			case 'about.about_me': return 'Saya lulusan Universitas Banten Jaya sebagai Sarjana Teknik Informatika dan pernah mengikuti program Workshop IT untuk mendalami Android Native dan Multiplatfrom. Sejak kuliah saya aktif di komunitas Computer Community dan Robotik. \n\nSebagai Software atau Hardware Engineer, saya selalu belajar secara mendalam dan mengasah logika coding untuk mengumpulkan keterampilan dan pengalaman dengan penelitian dan pembangunan aplikasi sistem frontend atau backend. Saya belum memiliki pengalaman kerja tetapi saya memiliki pengalaman dalam membuat hardware atau software yang bersifat otodidak dan memiliki keinginan yang sangat tinggi untuk belajar hal baru. \n\nSelain itu, saya memiliki pengalaman dalam penerapan dengan Arduino untuk mengembangkan sebuah hardware yang dapat digunakan untuk kegunaan sehari hari.';
+			case 'about.about_cards.0.content': return 'Membuat kode aplikasi berkualitas tinggi dan dapat digunakan kembali.';
+			case 'about.about_cards.0.title': return 'Software Engineer';
+			case 'about.about_cards.1.content': return 'Menggunakan Java, Saya dapat mengembangkan sistem backend.';
+			case 'about.about_cards.1.title': return 'Backend Developer';
+			case 'about.about_cards.2.content': return 'Menggunakan Arduino, Saya dapat mengembangkan sebuah alat yang berkualitas tinggi dan dapat digunakan oleh pengguna.';
+			case 'about.about_cards.2.title': return 'Hardware Engineer';
+			case 'about.about_cards.3.content': return 'Menggunakan Android Studio & Flutter, Saya dapat mengembangkan Aplikasi dan situs Web.';
+			case 'about.about_cards.3.title': return 'Mobile Apps Developer';
+			case 'about.about_cards.4.content': return 'Saya meneliti dan menganalisa serta melakukan troubleshooting';
+			case 'about.about_cards.4.title': return 'IT Troubleshooting';
 			case 'experience.experiences.0.company': return 'PT. MNC Sky Vision';
 			case 'experience.experiences.0.country': return 'Indonesia';
 			case 'experience.experiences.0.emp_type': return 'Magang';
-			case 'experience.experiences.0.position': return '';
-			case 'experience.experiences.0.site_url': return '';
-			case 'experience.experiences.0.start_date': return '';
-			case 'experience.experiences.0.end_date': return '';
-			case 'experience.experiences.0.state': return '';
-			case 'experience.experiences.0.works.0': return '';
-			case 'experience.experiences.0.works.1': return '';
+			case 'experience.experiences.0.position': return 'Managemen File';
+			case 'experience.experiences.0.site_url': return 'https://mncvisionnetworks.com/';
+			case 'experience.experiences.0.start_date': return '2018-01-01T00:00:00.000';
+			case 'experience.experiences.0.end_date': return '2018-04-01T00:00:00.000';
+			case 'experience.experiences.0.state': return 'Jakarta Barat';
+			case 'experience.experiences.0.works.0': return 'Menyaring data dan mengolah informasi data serta menginputkan kedalam Excel.';
+			case 'experience.experiences.0.works.1': return 'Melakukan backup secara berkala untuk menghindari file yang hilang atau rusak.';
 			case 'experience.experiences.0.is_work_here': return 'false';
 			case 'experience.experiences.1.company': return 'Dinas Kominfo';
 			case 'experience.experiences.1.country': return 'Indonesia';
 			case 'experience.experiences.1.emp_type': return 'Magang';
-			case 'experience.experiences.1.position': return '';
-			case 'experience.experiences.1.site_url': return '';
-			case 'experience.experiences.1.start_date': return '';
-			case 'experience.experiences.1.end_date': return '';
-			case 'experience.experiences.1.state': return '';
-			case 'experience.experiences.1.works.0': return '';
-			case 'experience.experiences.1.works.1': return '';
+			case 'experience.experiences.1.position': return 'Persandian';
+			case 'experience.experiences.1.site_url': return 'https://kominfo.serangkota.go.id/';
+			case 'experience.experiences.1.start_date': return '2022-05-01T00:00:00.000';
+			case 'experience.experiences.1.end_date': return '2022-06-01T00:00:00.000';
+			case 'experience.experiences.1.state': return 'Kec. Curug, Kota Serang';
+			case 'experience.experiences.1.works.0': return 'Menganalisis data dan website serta mencari website yang layak digunakan atau tidak layak.';
+			case 'experience.experiences.1.works.1': return 'Mengimput data dari hasil menganalisis website.';
+			case 'experience.experiences.1.works.2': return 'Memantau website aplikasi untuk mencegah adanya pembobolan pada suatu aplikasi website.';
 			case 'experience.experiences.1.is_work_here': return 'false';
 			case 'general.language': return 'Bahasa';
 			case 'general.indonesia': return 'Indonesia';
@@ -979,35 +1242,74 @@ extension on Translations {
 			case 'general.introduce_home_my_name': return 'Zhogi Achmad Panusunan';
 			case 'general.hi_home_section': return 'Hai! Nama saya ';
 			case 'general.introduce_home_section1': return 'Saya seorang Software Engineer yang berfokus pada aplikasi backend dan seluler.';
-			case 'general.introduce_home_section2': return 'Saya mengembangkan sistem backend untuk maskapai penerbangan dan membangun aplikasi perangkat lunak interaktif yang dapat berjalan di berbagai platform.';
+			case 'general.introduce_home_section2': return 'Saya mengembangkan sistem backend untuk membangun aplikasi perangkat lunak interaktif yang dapat berjalan di berbagai platform.';
 			case 'general.browse_projects_home_section': return 'Lihat Proyek';
 			case 'general.required_input_field': return 'Bagian ini diperlukan';
 			case 'general.copy': return 'Disalin ke papan klip';
-			case 'projects.projects.0.cover_img': return '';
+			case 'projects.projects.0.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/portofolio.png';
 			case 'projects.projects.0.description': return '';
-			case 'projects.projects.0.external_link': return '';
-			case 'projects.projects.0.github_link': return '';
+			case 'projects.projects.0.external_link': return 'https://zhogia.github.io/';
+			case 'projects.projects.0.github_link': return 'https://github.com/ZHOGIA/zhogia.github.io';
 			case 'projects.projects.0.is_personal': return 'true';
 			case 'projects.projects.0.name': return 'Portofolio Zhogi Achmad Panusunan';
 			case 'projects.projects.0.playstore_link': return '';
 			case 'projects.projects.0.tech.0': return 'Dart';
 			case 'projects.projects.0.tech.1': return 'Flutter';
 			case 'projects.projects.0.type': return 'Website';
-			case 'projects.projects.1.cover_img': return '';
-			case 'projects.projects.1.description': return '';
+			case 'projects.projects.1.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png';
+			case 'projects.projects.1.description': return 'Proyek akhir skripsi.';
 			case 'projects.projects.1.external_link': return '';
 			case 'projects.projects.1.github_link': return '';
 			case 'projects.projects.1.is_personal': return 'true';
-			case 'projects.projects.1.name': return 'Portofolio Zhogi Achmad Panusunan';
+			case 'projects.projects.1.name': return 'E-Learning (Belajar online dimanapun kamu berada).';
 			case 'projects.projects.1.playstore_link': return '';
-			case 'projects.projects.1.tech.0': return 'Dart';
-			case 'projects.projects.1.tech.1': return 'Flutter';
-			case 'projects.projects.1.type': return 'Website';
+			case 'projects.projects.1.tech.0': return 'Java';
+			case 'projects.projects.1.tech.1': return 'Firebase';
+			case 'projects.projects.1.tech.2': return 'Figma';
+			case 'projects.projects.1.type': return 'Aplikasi';
+			case 'projects.projects.2.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png';
+			case 'projects.projects.2.description': return 'Membuat game dengan Unity (DUOCARS)';
+			case 'projects.projects.2.external_link': return '';
+			case 'projects.projects.2.github_link': return '';
+			case 'projects.projects.2.is_personal': return 'true';
+			case 'projects.projects.2.name': return 'Membuat aplikasi game sederhana menggunakan Unity engine';
+			case 'projects.projects.2.playstore_link': return '';
+			case 'projects.projects.2.tech.0': return 'C Sharp';
+			case 'projects.projects.2.tech.1': return 'Firebase';
+			case 'projects.projects.2.tech.2': return 'Figma';
+			case 'projects.projects.2.type': return 'Aplikasi';
+			case 'projects.projects.3.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png';
+			case 'projects.projects.3.description': return 'Membuat stoplamp agar terlihat kekinian menggunakan LED Matrix dan ESP8266';
+			case 'projects.projects.3.external_link': return '';
+			case 'projects.projects.3.github_link': return '';
+			case 'projects.projects.3.is_personal': return 'true';
+			case 'projects.projects.3.name': return 'LED Matrix pada stoplamp motor';
+			case 'projects.projects.3.playstore_link': return '';
+			case 'projects.projects.3.tech.0': return 'C++';
+			case 'projects.projects.3.tech.1': return 'C';
+			case 'projects.projects.3.tech.2': return 'ESP8266';
+			case 'projects.projects.3.tech.3': return 'HTML';
+			case 'projects.projects.3.tech.4': return 'Python';
+			case 'projects.projects.3.type': return 'Website';
+			case 'projects.projects.4.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png';
+			case 'projects.projects.4.description': return 'Proyek motor dengan ESP32 untuk meremote motor agar bisa dinyalakan dengan seluler serta melacak keberadaan motor';
+			case 'projects.projects.4.external_link': return '';
+			case 'projects.projects.4.github_link': return '';
+			case 'projects.projects.4.is_personal': return 'true';
+			case 'projects.projects.4.name': return 'Meremote dan melacak motor menggunakan seluler';
+			case 'projects.projects.4.playstore_link': return '';
+			case 'projects.projects.4.tech.0': return 'Java';
+			case 'projects.projects.4.tech.1': return 'Firebase';
+			case 'projects.projects.4.tech.2': return 'Figma';
+			case 'projects.projects.4.tech.3': return 'ESP32';
+			case 'projects.projects.4.tech.4': return 'C';
+			case 'projects.projects.4.tech.5': return 'C++';
+			case 'projects.projects.4.type': return 'Aplikasi';
 			case 'skills.skills.0.img': return 'https://img.icons8.com/?size=512&id=13679&format=png';
 			case 'skills.skills.0.name': return 'Java';
 			case 'skills.skills.1.img': return 'https://img.icons8.com/?size=512&id=55251&format=png';
 			case 'skills.skills.1.name': return 'C Sharp';
-			case 'skills.skills.2.img': return 'https://img.icons8.com/?size=512&id=KMIk5YXYTmwT&format=png';
+			case 'skills.skills.2.img': return 'https://img.icons8.com/?size=512&id=QSOostPggwCK&format=png';
 			case 'skills.skills.2.name': return 'Visual Basic';
 			case 'skills.skills.3.img': return 'https://img.icons8.com/?size=512&id=ylXrZF2zxsFE&format=png';
 			case 'skills.skills.3.name': return 'PHP';
@@ -1017,12 +1319,18 @@ extension on Translations {
 			case 'skills.skills.5.name': return 'C++';
 			case 'skills.skills.6.img': return 'https://img.icons8.com/?size=512&id=5pu47piHKg1I&format=png';
 			case 'skills.skills.6.name': return 'Flutter';
-			case 'skills.skills.7.img': return 'https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png';
-			case 'skills.skills.7.name': return 'MySQL';
-			case 'skills.skills.8.img': return 'https://img.icons8.com/?size=512&id=62452&format=png';
-			case 'skills.skills.8.name': return 'Firebase';
-			case 'skills.skills.9.img': return 'https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png';
-			case 'skills.skills.9.name': return 'Figma';
+			case 'skills.skills.7.img': return 'https://img.icons8.com/?size=512&id=EgOU93v1DHjU&format=png';
+			case 'skills.skills.7.name': return 'Android Studio';
+			case 'skills.skills.8.img': return 'https://img.icons8.com/?size=512&id=13444&format=png';
+			case 'skills.skills.8.name': return 'Arduino';
+			case 'skills.skills.9.img': return 'https://img.icons8.com/?size=512&id=ezj3zaVtImPg&format=png';
+			case 'skills.skills.9.name': return 'Visual Studio';
+			case 'skills.skills.10.img': return 'https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png';
+			case 'skills.skills.10.name': return 'MySQL';
+			case 'skills.skills.11.img': return 'https://img.icons8.com/?size=512&id=62452&format=png';
+			case 'skills.skills.11.name': return 'Firebase';
+			case 'skills.skills.12.img': return 'https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png';
+			case 'skills.skills.12.name': return 'Figma';
 			case 'tabs.tabs.0': return 'Beranda';
 			case 'tabs.tabs.1': return 'Tentang';
 			case 'tabs.tabs.2': return 'Keterampilan';
@@ -1038,36 +1346,39 @@ extension on Translations {
 extension on _LocaleEn {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
-			case 'about.about_me': return 'I graduated from Universitas Banten Jaya with a degree in Informatics Engineering.';
-			case 'about.about_cards.0.content': return 'Made';
-			case 'about.about_cards.0.tittle': return 'Software Engineer';
-			case 'about.about_cards.1.content': return 'Made';
-			case 'about.about_cards.1.tittle': return 'Software Engineer';
-			case 'about.about_cards.2.content': return 'Made';
-			case 'about.about_cards.2.tittle': return 'Software Engineer';
-			case 'about.about_cards.3.content': return 'Made';
-			case 'about.about_cards.3.tittle': return 'Software Engineer';
+			case 'about.about_me': return 'I graduated from Universitas Banten Jaya with a Bachelor\'s degree in Informatics Engineering and participated in an IT Workshop to deepen my knowledge of Android Native and Multiplatform development. During my studies, I was actively involved in the Computer Community and Robotics. \n\nAs a Software or Hardware Engineer, I am committed to deep learning and refining my coding logic to acquire skills and experience through research and the development of frontend or backend systems. While I don\'t have formal work experience, I have self-taught experience in creating both hardware and software, and I possess a strong desire to learn new things. \n\nAdditionally, I have hands-on experience with Arduino, where I\'ve developed hardware solutions for everyday use.';
+			case 'about.about_cards.0.content': return 'Writing high-quality, reusable application code.';
+			case 'about.about_cards.0.title': return 'Software Engineer';
+			case 'about.about_cards.1.content': return 'Using Java, I can develop backend systems.';
+			case 'about.about_cards.1.title': return 'Backend Developer';
+			case 'about.about_cards.2.content': return 'Using Arduino, I can develop a high-quality tool that is user-friendly.';
+			case 'about.about_cards.2.title': return 'Hardware Engineer';
+			case 'about.about_cards.3.content': return 'Using Android Studio & Flutter, I can develop applications and websites.';
+			case 'about.about_cards.3.title': return 'Mobile Apps Developer';
+			case 'about.about_cards.4.content': return 'I research, analyze, and perform troubleshooting.';
+			case 'about.about_cards.4.title': return 'IT Troubleshooting';
 			case 'experience.experiences.0.company': return 'PT. MNC Sky Vision';
 			case 'experience.experiences.0.country': return 'Indonesia';
-			case 'experience.experiences.0.emp_type': return 'PKL';
-			case 'experience.experiences.0.position': return '';
-			case 'experience.experiences.0.site_url': return '';
-			case 'experience.experiences.0.start_date': return '';
-			case 'experience.experiences.0.end_date': return '';
-			case 'experience.experiences.0.state': return '';
-			case 'experience.experiences.0.works.0': return '';
-			case 'experience.experiences.0.works.1': return '';
+			case 'experience.experiences.0.emp_type': return 'Apprenticeship';
+			case 'experience.experiences.0.position': return 'File Management';
+			case 'experience.experiences.0.site_url': return 'https://mncvisionnetworks.com/';
+			case 'experience.experiences.0.start_date': return '2018-01-01T00:00:00.000';
+			case 'experience.experiences.0.end_date': return '2018-04-01T00:00:00.000';
+			case 'experience.experiences.0.state': return 'Jakarta Barat';
+			case 'experience.experiences.0.works.0': return 'Filtering and processing data, then inputting it into Excel.';
+			case 'experience.experiences.0.works.1': return 'Performing regular backups to prevent file loss or corruption.';
 			case 'experience.experiences.0.is_work_here': return 'false';
 			case 'experience.experiences.1.company': return 'Dinas Kominfo';
 			case 'experience.experiences.1.country': return 'Indonesia';
-			case 'experience.experiences.1.emp_type': return 'Magang';
-			case 'experience.experiences.1.position': return '';
-			case 'experience.experiences.1.site_url': return '';
-			case 'experience.experiences.1.start_date': return '';
-			case 'experience.experiences.1.end_date': return '';
-			case 'experience.experiences.1.state': return '';
-			case 'experience.experiences.1.works.0': return '';
-			case 'experience.experiences.1.works.1': return '';
+			case 'experience.experiences.1.emp_type': return 'Apprenticeship';
+			case 'experience.experiences.1.position': return 'Chiper';
+			case 'experience.experiences.1.site_url': return 'https://kominfo.serangkota.go.id/';
+			case 'experience.experiences.1.start_date': return '2022-05-01T00:00:00.000';
+			case 'experience.experiences.1.end_date': return '2022-06-01T00:00:00.000';
+			case 'experience.experiences.1.state': return 'Kec. Curug, Kota Serang';
+			case 'experience.experiences.1.works.0': return 'Analyzing data and websites to determine their usability or lack thereof.';
+			case 'experience.experiences.1.works.1': return 'Inputting data from website analysis results.';
+			case 'experience.experiences.1.works.2': return 'Monitoring website applications to prevent potential breaches.';
 			case 'experience.experiences.1.is_work_here': return 'false';
 			case 'general.language': return 'Language';
 			case 'general.indonesia': return 'Indonesia';
@@ -1095,35 +1406,74 @@ extension on _LocaleEn {
 			case 'general.introduce_home_my_name': return 'Zhogi Achmad Panusunan';
 			case 'general.hi_home_section': return 'Hi, my name ';
 			case 'general.introduce_home_section1': return 'I am a Software Engineer focusing in backend and mobile apps.';
-			case 'general.introduce_home_section2': return 'I developing a backend system for airlines and build a interactive software applications with run on cross platforms.';
+			case 'general.introduce_home_section2': return 'I developing a backend system to build a interactive software applications with run on cross platforms.';
 			case 'general.browse_projects_home_section': return 'See Projects';
 			case 'general.required_input_field': return 'This field is required';
 			case 'general.copy': return 'Copied to clipboard';
-			case 'projects.projects.0.cover_img': return '';
+			case 'projects.projects.0.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/portofolio.png';
 			case 'projects.projects.0.description': return '';
-			case 'projects.projects.0.external_link': return '';
-			case 'projects.projects.0.github_link': return '';
+			case 'projects.projects.0.external_link': return 'https://zhogia.github.io/';
+			case 'projects.projects.0.github_link': return 'https://github.com/ZHOGIA/zhogia.github.io';
 			case 'projects.projects.0.is_personal': return 'true';
 			case 'projects.projects.0.name': return 'Portofolio Zhogi Achmad Panusunan';
 			case 'projects.projects.0.playstore_link': return '';
 			case 'projects.projects.0.tech.0': return 'Dart';
 			case 'projects.projects.0.tech.1': return 'Flutter';
 			case 'projects.projects.0.type': return 'Website';
-			case 'projects.projects.1.cover_img': return '';
-			case 'projects.projects.1.description': return '';
+			case 'projects.projects.1.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png';
+			case 'projects.projects.1.description': return 'Final thesis project.';
 			case 'projects.projects.1.external_link': return '';
 			case 'projects.projects.1.github_link': return '';
 			case 'projects.projects.1.is_personal': return 'true';
-			case 'projects.projects.1.name': return 'Portofolio Zhogi Achmad Panusunan';
+			case 'projects.projects.1.name': return 'E-Learning (Learn online wherever you are).';
 			case 'projects.projects.1.playstore_link': return '';
-			case 'projects.projects.1.tech.0': return 'Dart';
-			case 'projects.projects.1.tech.1': return 'Flutter';
-			case 'projects.projects.1.type': return 'Website';
+			case 'projects.projects.1.tech.0': return 'Java';
+			case 'projects.projects.1.tech.1': return 'Firebase';
+			case 'projects.projects.1.tech.2': return 'Figma';
+			case 'projects.projects.1.type': return 'Application';
+			case 'projects.projects.2.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png';
+			case 'projects.projects.2.description': return 'Creating a game with Unity (DUOCARS).';
+			case 'projects.projects.2.external_link': return '';
+			case 'projects.projects.2.github_link': return '';
+			case 'projects.projects.2.is_personal': return 'true';
+			case 'projects.projects.2.name': return 'Creating a simple game application using the Unity engine.';
+			case 'projects.projects.2.playstore_link': return '';
+			case 'projects.projects.2.tech.0': return 'C Sharp';
+			case 'projects.projects.2.tech.1': return 'Firebase';
+			case 'projects.projects.2.tech.2': return 'Figma';
+			case 'projects.projects.2.type': return 'Application';
+			case 'projects.projects.3.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png';
+			case 'projects.projects.3.description': return 'Creating a modern-looking stoplamp using an LED Matrix and ESP8266.';
+			case 'projects.projects.3.external_link': return '';
+			case 'projects.projects.3.github_link': return '';
+			case 'projects.projects.3.is_personal': return 'true';
+			case 'projects.projects.3.name': return 'LED Matrix on a motorcycle stoplamp.';
+			case 'projects.projects.3.playstore_link': return '';
+			case 'projects.projects.3.tech.0': return 'C++';
+			case 'projects.projects.3.tech.1': return 'C';
+			case 'projects.projects.3.tech.2': return 'ESP8266';
+			case 'projects.projects.3.tech.3': return 'HTML';
+			case 'projects.projects.3.tech.4': return 'Python';
+			case 'projects.projects.3.type': return 'Website';
+			case 'projects.projects.4.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png';
+			case 'projects.projects.4.description': return 'A motor project using ESP32 to remotely start the motor via a mobile device and track its location.';
+			case 'projects.projects.4.external_link': return '';
+			case 'projects.projects.4.github_link': return '';
+			case 'projects.projects.4.is_personal': return 'true';
+			case 'projects.projects.4.name': return 'To remotely control and track a motor using a mobile device.';
+			case 'projects.projects.4.playstore_link': return '';
+			case 'projects.projects.4.tech.0': return 'Java';
+			case 'projects.projects.4.tech.1': return 'Firebase';
+			case 'projects.projects.4.tech.2': return 'Figma';
+			case 'projects.projects.4.tech.3': return 'ESP32';
+			case 'projects.projects.4.tech.4': return 'C';
+			case 'projects.projects.4.tech.5': return 'C++';
+			case 'projects.projects.4.type': return 'Application';
 			case 'skills.skills.0.img': return 'https://img.icons8.com/?size=512&id=13679&format=png';
 			case 'skills.skills.0.name': return 'Java';
 			case 'skills.skills.1.img': return 'https://img.icons8.com/?size=512&id=55251&format=png';
 			case 'skills.skills.1.name': return 'C Sharp';
-			case 'skills.skills.2.img': return 'https://img.icons8.com/?size=512&id=KMIk5YXYTmwT&format=png';
+			case 'skills.skills.2.img': return 'https://img.icons8.com/?size=512&id=QSOostPggwCK&format=png';
 			case 'skills.skills.2.name': return 'Visual Basic';
 			case 'skills.skills.3.img': return 'https://img.icons8.com/?size=512&id=ylXrZF2zxsFE&format=png';
 			case 'skills.skills.3.name': return 'PHP';
@@ -1133,12 +1483,18 @@ extension on _LocaleEn {
 			case 'skills.skills.5.name': return 'C++';
 			case 'skills.skills.6.img': return 'https://img.icons8.com/?size=512&id=5pu47piHKg1I&format=png';
 			case 'skills.skills.6.name': return 'Flutter';
-			case 'skills.skills.7.img': return 'https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png';
-			case 'skills.skills.7.name': return 'MySQL';
-			case 'skills.skills.8.img': return 'https://img.icons8.com/?size=512&id=62452&format=png';
-			case 'skills.skills.8.name': return 'Firebase';
-			case 'skills.skills.9.img': return 'https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png';
-			case 'skills.skills.9.name': return 'Figma';
+			case 'skills.skills.7.img': return 'https://img.icons8.com/?size=512&id=EgOU93v1DHjU&format=png';
+			case 'skills.skills.7.name': return 'Android Studio';
+			case 'skills.skills.8.img': return 'https://img.icons8.com/?size=512&id=13444&format=png';
+			case 'skills.skills.8.name': return 'Arduino';
+			case 'skills.skills.9.img': return 'https://img.icons8.com/?size=512&id=ezj3zaVtImPg&format=png';
+			case 'skills.skills.9.name': return 'Visual Studio';
+			case 'skills.skills.10.img': return 'https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png';
+			case 'skills.skills.10.name': return 'MySQL';
+			case 'skills.skills.11.img': return 'https://img.icons8.com/?size=512&id=62452&format=png';
+			case 'skills.skills.11.name': return 'Firebase';
+			case 'skills.skills.12.img': return 'https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png';
+			case 'skills.skills.12.name': return 'Figma';
 			case 'tabs.tabs.0': return 'Home';
 			case 'tabs.tabs.1': return 'About';
 			case 'tabs.tabs.2': return 'Skills';

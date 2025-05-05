@@ -108,18 +108,18 @@ class _MHomeSectionState extends State<MHomeSection> {
                     ),
                   ),
                   TypewriterAnimatedText(
-                    "Flutter",
+                    "Hardware",
                     speed: const Duration(milliseconds: 200),
                     textStyle: kTitleTextStyle.copyWith(
                       fontSize: 30,
                       fontWeight: MediaQuery.of(context).size.width >= 500
                           ? FontWeight.bold
                           : null,
-                      color: Colors.blue,
+                      color: Colors.orange,
                       shadows: [
                         Shadow(
                           blurRadius: 7.0,
-                          color: Colors.blue.shade900,
+                          color: Colors.orange.shade900,
                         ),
                       ],
                     ),
@@ -129,7 +129,7 @@ class _MHomeSectionState extends State<MHomeSection> {
             ],
           ),
           Text(
-            'Hardware.',
+            'Engineer.',
             style: kTitleTextStyle.copyWith(
               fontSize: 30,
             ),
