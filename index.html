@@ -93,15 +93,17 @@
       <div class="dot"></div>
       <div class="dot"></div>
   </div>
-  <div class="loading-text">LOADING...</div>
+  <div id="loading_indicator" class="loading-text">LOADING...</div>
   <script src="flutter_bootstrap.js" async></script>
   <script>
-    // Optional: Simulasi loading selesai setelah 5 detik
-    setTimeout(() => {
-        document.querySelector('.loader').style.display = 'none';
-        //document.querySelector('.loading-text').textContent = 'LOADING COMPLETE!';
-  document.querySelector('.loading-text').style.display = 'none';
-    }, 10000);
+    window.onload = function () {
+      setTimeout(function () {
+        var loadingIndicator = document.getElementById("loading_indicator");
+        if (loadingIndicator) {
+          loadingIndicator.remove();
+        }
+      }, 10000);
+    };
 </script>
 </body>
 </html>
