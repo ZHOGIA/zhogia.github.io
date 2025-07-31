@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 312 (156 per locale)
+/// Strings: 356 (178 per locale)
 ///
-/// Built on 2024-08-29 at 10:56 UTC
+/// Built on 2025-07-30 at 13:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -238,6 +238,8 @@ class _LocaleProjectsId {
 		_LocaleProjects$projects$0i2$Id._(_root),
 		_LocaleProjects$projects$0i3$Id._(_root),
 		_LocaleProjects$projects$0i4$Id._(_root),
+		_LocaleProjects$projects$0i5$Id._(_root),
+		_LocaleProjects$projects$0i6$Id._(_root),
 	];
 }
 
@@ -507,6 +509,54 @@ class _LocaleProjects$projects$0i4$Id {
 	String get type => 'Aplikasi';
 }
 
+// Path: projects.projects.5
+class _LocaleProjects$projects$0i5$Id {
+	_LocaleProjects$projects$0i5$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg';
+	String get description => 'Proyek menampilkan waktu untuk sepeda motor menggunakan ESP 8266 dengan modul RTC DS3231. Dan dapat mencari wifi untuk terhubung ke internet berfungsi untuk memperbaiki waktu jika waktu ditampilkan tidak sesuai atau tidak akurat.';
+	String get external_link => '';
+	String get github_link => '';
+	List<String> get images => [
+	];
+	String get is_personal => 'true';
+	String get name => 'Menampilkan waktu secara realtime dan akurat';
+	String get playstore_link => '';
+	List<String> get tech => [
+		'C',
+		'C++',
+		'ESP8266',
+	];
+	String get type => 'Program';
+}
+
+// Path: projects.projects.6
+class _LocaleProjects$projects$0i6$Id {
+	_LocaleProjects$projects$0i6$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png';
+	String get description => 'Membuat aplikasi untuk mengelola stok barang pada usaha Photocopy, Terintegrasi dengan Firebase sebagai database-nya.';
+	String get external_link => '';
+	String get github_link => '';
+	List<String> get images => [
+	];
+	String get is_personal => 'true';
+	String get name => 'Mempermudah mencari dan mengelola barang pada usaha Photocopy';
+	String get playstore_link => '';
+	List<String> get tech => [
+		'C Sharp',
+		'.NET',
+		'Firebase',
+	];
+	String get type => 'Aplikasi';
+}
+
 // Path: skills.skills.0
 class _LocaleSkills$skills$0i0$Id {
 	_LocaleSkills$skills$0i0$Id._(this._root);
@@ -764,6 +814,8 @@ class _LocaleProjectsEn implements _LocaleProjectsId {
 		_LocaleProjects$projects$0i2$En._(_root),
 		_LocaleProjects$projects$0i3$En._(_root),
 		_LocaleProjects$projects$0i4$En._(_root),
+		_LocaleProjects$projects$0i5$En._(_root),
+		_LocaleProjects$projects$0i6$En._(_root),
 	];
 }
 
@@ -923,7 +975,7 @@ class _LocaleProjects$projects$0i0$En implements _LocaleProjects$projects$0i0$Id
 	@override List<String> get images => [
 	];
 	@override String get is_personal => 'true';
-	@override String get name => 'Portofolio Zhogi Achmad Panusunan';
+	@override String get name => 'Portfolio Saya';
 	@override String get playstore_link => '';
 	@override List<String> get tech => [
 		'Dart',
@@ -966,7 +1018,7 @@ class _LocaleProjects$projects$0i2$En implements _LocaleProjects$projects$0i2$Id
 	@override String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png';
 	@override String get description => 'Creating a game with Unity (DUOCARS).';
 	@override String get external_link => '';
-	@override String get github_link => '';
+	@override String get github_link => 'https://github.com/ZHOGIA/DUOCARS';
 	@override List<String> get images => [
 	];
 	@override String get is_personal => 'true';
@@ -1029,6 +1081,54 @@ class _LocaleProjects$projects$0i4$En implements _LocaleProjects$projects$0i4$Id
 		'ESP32',
 		'C',
 		'C++',
+	];
+	@override String get type => 'Application';
+}
+
+// Path: projects.projects.5
+class _LocaleProjects$projects$0i5$En implements _LocaleProjects$projects$0i5$Id {
+	_LocaleProjects$projects$0i5$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg';
+	@override String get description => 'A time display project for motorcycles using the ESP8266 and RTC DS3231 module. The device can search for available Wi-Fi networks to connect to the internet, allowing it to automatically synchronize and correct the time if the displayed time is inaccurate.';
+	@override String get external_link => '';
+	@override String get github_link => '';
+	@override List<String> get images => [
+	];
+	@override String get is_personal => 'true';
+	@override String get name => 'Displaying time in real-time and with high accuracy.';
+	@override String get playstore_link => '';
+	@override List<String> get tech => [
+		'C',
+		'C++',
+		'ESP8266',
+	];
+	@override String get type => 'Programme';
+}
+
+// Path: projects.projects.6
+class _LocaleProjects$projects$0i6$En implements _LocaleProjects$projects$0i6$Id {
+	_LocaleProjects$projects$0i6$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get cover_img => 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png';
+	@override String get description => 'Developed an application to manage inventory for a photocopy business, integrated with Firebase as the database.';
+	@override String get external_link => '';
+	@override String get github_link => '';
+	@override List<String> get images => [
+	];
+	@override String get is_personal => 'true';
+	@override String get name => 'The application simplifies searching and managing stock items, making operations more efficient.';
+	@override String get playstore_link => '';
+	@override List<String> get tech => [
+		'C Sharp',
+		'.NET',
+		'Firebase',
 	];
 	@override String get type => 'Application';
 }
@@ -1305,6 +1405,28 @@ extension on Translations {
 			case 'projects.projects.4.tech.4': return 'C';
 			case 'projects.projects.4.tech.5': return 'C++';
 			case 'projects.projects.4.type': return 'Aplikasi';
+			case 'projects.projects.5.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg';
+			case 'projects.projects.5.description': return 'Proyek menampilkan waktu untuk sepeda motor menggunakan ESP 8266 dengan modul RTC DS3231. Dan dapat mencari wifi untuk terhubung ke internet berfungsi untuk memperbaiki waktu jika waktu ditampilkan tidak sesuai atau tidak akurat.';
+			case 'projects.projects.5.external_link': return '';
+			case 'projects.projects.5.github_link': return '';
+			case 'projects.projects.5.is_personal': return 'true';
+			case 'projects.projects.5.name': return 'Menampilkan waktu secara realtime dan akurat';
+			case 'projects.projects.5.playstore_link': return '';
+			case 'projects.projects.5.tech.0': return 'C';
+			case 'projects.projects.5.tech.1': return 'C++';
+			case 'projects.projects.5.tech.2': return 'ESP8266';
+			case 'projects.projects.5.type': return 'Program';
+			case 'projects.projects.6.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png';
+			case 'projects.projects.6.description': return 'Membuat aplikasi untuk mengelola stok barang pada usaha Photocopy, Terintegrasi dengan Firebase sebagai database-nya.';
+			case 'projects.projects.6.external_link': return '';
+			case 'projects.projects.6.github_link': return '';
+			case 'projects.projects.6.is_personal': return 'true';
+			case 'projects.projects.6.name': return 'Mempermudah mencari dan mengelola barang pada usaha Photocopy';
+			case 'projects.projects.6.playstore_link': return '';
+			case 'projects.projects.6.tech.0': return 'C Sharp';
+			case 'projects.projects.6.tech.1': return '.NET';
+			case 'projects.projects.6.tech.2': return 'Firebase';
+			case 'projects.projects.6.type': return 'Aplikasi';
 			case 'skills.skills.0.img': return 'https://img.icons8.com/?size=512&id=13679&format=png';
 			case 'skills.skills.0.name': return 'Java';
 			case 'skills.skills.1.img': return 'https://img.icons8.com/?size=512&id=55251&format=png';
@@ -1415,7 +1537,7 @@ extension on _LocaleEn {
 			case 'projects.projects.0.external_link': return 'https://zhogia.github.io/';
 			case 'projects.projects.0.github_link': return 'https://github.com/ZHOGIA/zhogia.github.io';
 			case 'projects.projects.0.is_personal': return 'true';
-			case 'projects.projects.0.name': return 'Portofolio Zhogi Achmad Panusunan';
+			case 'projects.projects.0.name': return 'Portfolio Saya';
 			case 'projects.projects.0.playstore_link': return '';
 			case 'projects.projects.0.tech.0': return 'Dart';
 			case 'projects.projects.0.tech.1': return 'Flutter';
@@ -1434,7 +1556,7 @@ extension on _LocaleEn {
 			case 'projects.projects.2.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png';
 			case 'projects.projects.2.description': return 'Creating a game with Unity (DUOCARS).';
 			case 'projects.projects.2.external_link': return '';
-			case 'projects.projects.2.github_link': return '';
+			case 'projects.projects.2.github_link': return 'https://github.com/ZHOGIA/DUOCARS';
 			case 'projects.projects.2.is_personal': return 'true';
 			case 'projects.projects.2.name': return 'Creating a simple game application using the Unity engine.';
 			case 'projects.projects.2.playstore_link': return '';
@@ -1469,6 +1591,28 @@ extension on _LocaleEn {
 			case 'projects.projects.4.tech.4': return 'C';
 			case 'projects.projects.4.tech.5': return 'C++';
 			case 'projects.projects.4.type': return 'Application';
+			case 'projects.projects.5.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg';
+			case 'projects.projects.5.description': return 'A time display project for motorcycles using the ESP8266 and RTC DS3231 module. The device can search for available Wi-Fi networks to connect to the internet, allowing it to automatically synchronize and correct the time if the displayed time is inaccurate.';
+			case 'projects.projects.5.external_link': return '';
+			case 'projects.projects.5.github_link': return '';
+			case 'projects.projects.5.is_personal': return 'true';
+			case 'projects.projects.5.name': return 'Displaying time in real-time and with high accuracy.';
+			case 'projects.projects.5.playstore_link': return '';
+			case 'projects.projects.5.tech.0': return 'C';
+			case 'projects.projects.5.tech.1': return 'C++';
+			case 'projects.projects.5.tech.2': return 'ESP8266';
+			case 'projects.projects.5.type': return 'Programme';
+			case 'projects.projects.6.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png';
+			case 'projects.projects.6.description': return 'Developed an application to manage inventory for a photocopy business, integrated with Firebase as the database.';
+			case 'projects.projects.6.external_link': return '';
+			case 'projects.projects.6.github_link': return '';
+			case 'projects.projects.6.is_personal': return 'true';
+			case 'projects.projects.6.name': return 'The application simplifies searching and managing stock items, making operations more efficient.';
+			case 'projects.projects.6.playstore_link': return '';
+			case 'projects.projects.6.tech.0': return 'C Sharp';
+			case 'projects.projects.6.tech.1': return '.NET';
+			case 'projects.projects.6.tech.2': return 'Firebase';
+			case 'projects.projects.6.type': return 'Application';
 			case 'skills.skills.0.img': return 'https://img.icons8.com/?size=512&id=13679&format=png';
 			case 'skills.skills.0.name': return 'Java';
 			case 'skills.skills.1.img': return 'https://img.icons8.com/?size=512&id=55251&format=png';

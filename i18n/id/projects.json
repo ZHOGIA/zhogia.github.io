@@ -83,6 +83,38 @@
                 "C++"
             ],
             "type": "Aplikasi"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg",
+            "description": "Proyek menampilkan waktu untuk sepeda motor menggunakan ESP 8266 dengan modul RTC DS3231. Dan dapat mencari wifi untuk terhubung ke internet berfungsi untuk memperbaiki waktu jika waktu ditampilkan tidak sesuai atau tidak akurat.",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "Menampilkan waktu secara realtime dan akurat",
+            "playstore_link": "",
+            "tech": [
+                "C",
+                "C++",
+                "ESP8266"
+            ],
+            "type": "Program"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png",
+            "description": "Membuat aplikasi untuk mengelola stok barang pada usaha Photocopy, Terintegrasi dengan Firebase sebagai database-nya.",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "Mempermudah mencari dan mengelola barang pada usaha Photocopy",
+            "playstore_link": "",
+            "tech": [
+                "C Sharp",
+                ".NET",
+                "Firebase"
+            ],
+            "type": "Aplikasi"
         }
     ]
 }

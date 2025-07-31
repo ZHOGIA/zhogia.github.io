@@ -83,6 +83,38 @@
                 "C++"
             ],
             "type": "Application"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg",
+            "description": "A time display project for motorcycles using the ESP8266 and RTC DS3231 module. The device can search for available Wi-Fi networks to connect to the internet, allowing it to automatically synchronize and correct the time if the displayed time is inaccurate.",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "Displaying time in real-time and with high accuracy.",
+            "playstore_link": "",
+            "tech": [
+                "C",
+                "C++",
+                "ESP8266"
+            ],
+            "type": "Programme"
+        },
+        {
+            "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png",
+            "description": "Developed an application to manage inventory for a photocopy business, integrated with Firebase as the database.",
+            "external_link": "",
+            "github_link": "",
+            "images": [],
+            "is_personal": "true",
+            "name": "The application simplifies searching and managing stock items, making operations more efficient.",
+            "playstore_link": "",
+            "tech": [
+                "C Sharp",
+                ".NET",
+                "Firebase"
+            ],
+            "type": "Application"
         }
     ]
 }

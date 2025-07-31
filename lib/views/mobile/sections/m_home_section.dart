@@ -91,7 +91,7 @@ class _MHomeSectionState extends State<MHomeSection> {
                     ),
                   ),
                   TypewriterAnimatedText(
-                    "Java",
+                    "Computer",
                     speed: const Duration(milliseconds: 200),
                     textStyle: kTitleTextStyle.copyWith(
                       fontSize: 30,
