@@ -30,6 +30,22 @@
                 "Monitoring website applications to prevent potential breaches."
             ],
             "is_work_here": "false"
+        },
+        {
+            "company": "PT. Denso Manufacturing Indonesia",
+            "country": "Indonesia",
+            "emp_type": "OJT (On Job Training)",
+            "position": "Smart Supply Chain",
+            "site_url": "https://www.denso.com/id/en/",
+            "start_date": "2025-11-17T00:00:00.000",
+            "end_date": "2025-12-15T00:00:00.000",
+            "state": "Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat",
+            "works": [
+                "Achieved 100% inventory accuracy through digitalization systems. Fully responsible for Part Number-based material arrangement and entering data into the database via fast and accurate scanning processes, supporting supply chain transparency.",
+                "Ensured physical stock alignment with digital data through Part Number identification and scanning data entry, serving as a key player in the digitalization of Denso's material inventory.",
+                "Responsible for Part Number management from physical arrangement to system data scanning. Guaranteed inventory data accuracy as the foundation for a smart and efficient Supply Chain."
+            ],
+            "is_work_here": "true"
         }
     ]
 }

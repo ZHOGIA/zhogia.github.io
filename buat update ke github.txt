@@ -1,0 +1,15 @@
+dart run slang - untuk mengupdate projects.json
+
+flutter run -d chrome - untuk debug test ke website chrome
+flutter build web --release - untuk membuild version release
+
+---proses update ke gihub
+git add .
+git commit -m "update"
+
+flutter pub global run peanut:peanut
+git push origin --set-upstream gh-pages
+
+
+Full tutorial:
+https://baguskto.medium.com/deploy-flutter-web-di-github-pages-pakai-peanut-5ac7e70db50f

@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 356 (178 per locale)
+/// Strings: 380 (190 per locale)
 ///
-/// Built on 2025-07-30 at 13:32 UTC
+/// Built on 2025-11-30 at 02:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -183,6 +183,7 @@ class _LocaleExperienceId {
 	List<dynamic> get experiences => [
 		_LocaleExperience$experiences$0i0$Id._(_root),
 		_LocaleExperience$experiences$0i1$Id._(_root),
+		_LocaleExperience$experiences$0i2$Id._(_root),
 	];
 }
 
@@ -383,6 +384,29 @@ class _LocaleExperience$experiences$0i1$Id {
 		'Memantau website aplikasi untuk mencegah adanya pembobolan pada suatu aplikasi website.',
 	];
 	String get is_work_here => 'false';
+}
+
+// Path: experience.experiences.2
+class _LocaleExperience$experiences$0i2$Id {
+	_LocaleExperience$experiences$0i2$Id._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get company => 'PT. Denso Manufacturing Indonesia';
+	String get country => 'Indonesia';
+	String get emp_type => 'OJT (On Job Training)';
+	String get position => 'Smart Supply Chain';
+	String get site_url => 'https://www.denso.com/id/id/';
+	String get start_date => '2025-11-17T00:00:00.000';
+	String get end_date => '2025-12-15T00:00:00.000';
+	String get state => 'Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat';
+	List<String> get works => [
+		'Menciptakan akurasi inventaris 100% dengan sistem digitalisasi. Bertanggung jawab penuh pada pengaturan material berbasis Part Number dan memasukkan data ke dalam database melalui proses scanning yang cepat dan akurat, mendukung transparansi supply chain.',
+		'Memastikan kesesuaian stok fisik dengan data digital melalui identifikasi Part Number dan entri data scanning, menjadi key player dalam digitalisasi inventory material Denso.',
+		'Bertanggung jawab atas manajemen Part Number dari penataan hingga scanning data ke dalam sistem. Menjamin keakuratan data inventaris sebagai dasar dari Supply Chain yang cerdas dan efisien.',
+	];
+	String get is_work_here => 'true';
 }
 
 // Path: projects.projects.0
@@ -759,6 +783,7 @@ class _LocaleExperienceEn implements _LocaleExperienceId {
 	@override List<dynamic> get experiences => [
 		_LocaleExperience$experiences$0i0$En._(_root),
 		_LocaleExperience$experiences$0i1$En._(_root),
+		_LocaleExperience$experiences$0i2$En._(_root),
 	];
 }
 
@@ -959,6 +984,29 @@ class _LocaleExperience$experiences$0i1$En implements _LocaleExperience$experien
 		'Monitoring website applications to prevent potential breaches.',
 	];
 	@override String get is_work_here => 'false';
+}
+
+// Path: experience.experiences.2
+class _LocaleExperience$experiences$0i2$En implements _LocaleExperience$experiences$0i2$Id {
+	_LocaleExperience$experiences$0i2$En._(this._root);
+
+	@override final _LocaleEn _root; // ignore: unused_field
+
+	// Translations
+	@override String get company => 'PT. Denso Manufacturing Indonesia';
+	@override String get country => 'Indonesia';
+	@override String get emp_type => 'OJT (On Job Training)';
+	@override String get position => 'Smart Supply Chain';
+	@override String get site_url => 'https://www.denso.com/id/en/';
+	@override String get start_date => '2025-11-17T00:00:00.000';
+	@override String get end_date => '2025-12-15T00:00:00.000';
+	@override String get state => 'Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat';
+	@override List<String> get works => [
+		'Achieved 100% inventory accuracy through digitalization systems. Fully responsible for Part Number-based material arrangement and entering data into the database via fast and accurate scanning processes, supporting supply chain transparency.',
+		'Ensured physical stock alignment with digital data through Part Number identification and scanning data entry, serving as a key player in the digitalization of Denso\'s material inventory.',
+		'Responsible for Part Number management from physical arrangement to system data scanning. Guaranteed inventory data accuracy as the foundation for a smart and efficient Supply Chain.',
+	];
+	@override String get is_work_here => 'true';
 }
 
 // Path: projects.projects.0
@@ -1316,6 +1364,18 @@ extension on Translations {
 			case 'experience.experiences.1.works.1': return 'Mengimput data dari hasil menganalisis website.';
 			case 'experience.experiences.1.works.2': return 'Memantau website aplikasi untuk mencegah adanya pembobolan pada suatu aplikasi website.';
 			case 'experience.experiences.1.is_work_here': return 'false';
+			case 'experience.experiences.2.company': return 'PT. Denso Manufacturing Indonesia';
+			case 'experience.experiences.2.country': return 'Indonesia';
+			case 'experience.experiences.2.emp_type': return 'OJT (On Job Training)';
+			case 'experience.experiences.2.position': return 'Smart Supply Chain';
+			case 'experience.experiences.2.site_url': return 'https://www.denso.com/id/id/';
+			case 'experience.experiences.2.start_date': return '2025-11-17T00:00:00.000';
+			case 'experience.experiences.2.end_date': return '2025-12-15T00:00:00.000';
+			case 'experience.experiences.2.state': return 'Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat';
+			case 'experience.experiences.2.works.0': return 'Menciptakan akurasi inventaris 100% dengan sistem digitalisasi. Bertanggung jawab penuh pada pengaturan material berbasis Part Number dan memasukkan data ke dalam database melalui proses scanning yang cepat dan akurat, mendukung transparansi supply chain.';
+			case 'experience.experiences.2.works.1': return 'Memastikan kesesuaian stok fisik dengan data digital melalui identifikasi Part Number dan entri data scanning, menjadi key player dalam digitalisasi inventory material Denso.';
+			case 'experience.experiences.2.works.2': return 'Bertanggung jawab atas manajemen Part Number dari penataan hingga scanning data ke dalam sistem. Menjamin keakuratan data inventaris sebagai dasar dari Supply Chain yang cerdas dan efisien.';
+			case 'experience.experiences.2.is_work_here': return 'true';
 			case 'general.language': return 'Bahasa';
 			case 'general.indonesia': return 'Indonesia';
 			case 'general.english': return 'English';
@@ -1502,6 +1562,18 @@ extension on _LocaleEn {
 			case 'experience.experiences.1.works.1': return 'Inputting data from website analysis results.';
 			case 'experience.experiences.1.works.2': return 'Monitoring website applications to prevent potential breaches.';
 			case 'experience.experiences.1.is_work_here': return 'false';
+			case 'experience.experiences.2.company': return 'PT. Denso Manufacturing Indonesia';
+			case 'experience.experiences.2.country': return 'Indonesia';
+			case 'experience.experiences.2.emp_type': return 'OJT (On Job Training)';
+			case 'experience.experiences.2.position': return 'Smart Supply Chain';
+			case 'experience.experiences.2.site_url': return 'https://www.denso.com/id/en/';
+			case 'experience.experiences.2.start_date': return '2025-11-17T00:00:00.000';
+			case 'experience.experiences.2.end_date': return '2025-12-15T00:00:00.000';
+			case 'experience.experiences.2.state': return 'Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat';
+			case 'experience.experiences.2.works.0': return 'Achieved 100% inventory accuracy through digitalization systems. Fully responsible for Part Number-based material arrangement and entering data into the database via fast and accurate scanning processes, supporting supply chain transparency.';
+			case 'experience.experiences.2.works.1': return 'Ensured physical stock alignment with digital data through Part Number identification and scanning data entry, serving as a key player in the digitalization of Denso\'s material inventory.';
+			case 'experience.experiences.2.works.2': return 'Responsible for Part Number management from physical arrangement to system data scanning. Guaranteed inventory data accuracy as the foundation for a smart and efficient Supply Chain.';
+			case 'experience.experiences.2.is_work_here': return 'true';
 			case 'general.language': return 'Language';
 			case 'general.indonesia': return 'Indonesia';
 			case 'general.english': return 'English';

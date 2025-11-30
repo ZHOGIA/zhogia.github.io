@@ -30,6 +30,22 @@
                 "Memantau website aplikasi untuk mencegah adanya pembobolan pada suatu aplikasi website."
             ],
             "is_work_here": "false"
+        },
+        {
+            "company": "PT. Denso Manufacturing Indonesia",
+            "country": "Indonesia",
+            "emp_type": "OJT (On Job Training)",
+            "position": "Smart Supply Chain",
+            "site_url": "https://www.denso.com/id/id/",
+            "start_date": "2025-11-17T00:00:00.000",
+            "end_date": "2025-12-15T00:00:00.000",
+            "state": "Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat",
+            "works": [
+                "Menciptakan akurasi inventaris 100% dengan sistem digitalisasi. Bertanggung jawab penuh pada pengaturan material berbasis Part Number dan memasukkan data ke dalam database melalui proses scanning yang cepat dan akurat, mendukung transparansi supply chain.",
+                "Memastikan kesesuaian stok fisik dengan data digital melalui identifikasi Part Number dan entri data scanning, menjadi key player dalam digitalisasi inventory material Denso.",
+                "Bertanggung jawab atas manajemen Part Number dari penataan hingga scanning data ke dalam sistem. Menjamin keakuratan data inventaris sebagai dasar dari Supply Chain yang cerdas dan efisien."
+            ],
+            "is_work_here": "true"
         }
     ]
 }
