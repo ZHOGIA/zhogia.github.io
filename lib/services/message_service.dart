@@ -64,6 +64,6 @@ Future<bool> isRecaptchaSuccess(String recaptchaToken) async {
 
 Future<bool> downloadCV() {
   String url =
-      'https://drive.google.com/file/d/1mWBh-BqTJOnca1dWsyIWHS9SslFxcI8-/view?usp=sharing';
+      'https://drive.google.com/file/d/1CSYNirgveG2y4G2lG0w9mFfPZ49_DEtr/view?usp=sharing';
   return launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
 }

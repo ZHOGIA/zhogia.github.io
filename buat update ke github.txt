@@ -7,9 +7,19 @@ flutter build web --release - untuk membuild version release
 git add .
 git commit -m "update"
 
+flutter pub global activate peanut
 flutter pub global run peanut:peanut
 git push origin --set-upstream gh-pages
 
 
 Full tutorial:
 https://baguskto.medium.com/deploy-flutter-web-di-github-pages-pakai-peanut-5ac7e70db50f
+
+
+Jika terdapat error saat menjalankan git add . :
+"fatal: detected dubious ownership in repository"
+
+> HAPUS .git (Not Recommended) must backup first
+> atau dengan cara "git config --global --add safe.directory D:/Saya/Code/Project/Portfolio/Lawas/zhogia.github.io" (Recommended)
+> lalu tambahkan git config --global --add safe.directory 'D:\Saya\Code\Project\Portfolio\Lawas\zhogia.github.io/.git'
+
