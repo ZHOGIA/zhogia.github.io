@@ -72,6 +72,7 @@ class _ProjectCardState extends State<ProjectCard> {
               Expanded(
                 flex: 5,
                 child: Stack(
+                  fit: StackFit.expand,
                   children: [
                     // Image with gradient overlay
                     ClipRRect(
