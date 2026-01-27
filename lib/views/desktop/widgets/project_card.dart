@@ -2,6 +2,7 @@ import 'package:portofolio/models/project_model.dart';
 import 'package:portofolio/values/styles.dart';
 import 'package:portofolio/widgets/custom_chip.dart';
 import 'package:portofolio/widgets/project_icon_btn.dart';
+import 'package:portofolio/views/desktop/widgets/project_detail_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
@@ -41,12 +42,11 @@ class _ProjectCardState extends State<ProjectCard> {
           },
           child: GestureDetector(
             onTap: () {
-              // showModalBottomSheet(
-              //   context: context,
-              //   builder: (context) =>
-              //       ProjectImagesCard(clickedProject: widget.project),
-              //   isScrollControlled: true,
-              // );
+              showDialog(
+                context: context,
+                builder: (context) =>
+                    ProjectDetailDialog(project: widget.project),
+              );
             },
             child: Container(
               margin: const EdgeInsets.symmetric(vertical: 30),

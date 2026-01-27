@@ -23,3 +23,16 @@ Jika terdapat error saat menjalankan git add . :
 > atau dengan cara "git config --global --add safe.directory D:/Saya/Code/Project/Portfolio/Lawas/zhogia.github.io" (Recommended)
 > lalu tambahkan git config --global --add safe.directory 'D:\Saya\Code\Project\Portfolio\Lawas\zhogia.github.io/.git'
 
+
+
+# 1. Update translations (Already ran this)
+dart run slang
+# 2. Push changes
+git add .
+git commit -m "Update portfolio design and project details"
+git push
+# 3. Deploy to GitHub Pages
+flutter pub global activate peanut
+flutter pub global run peanut:peanut
+git push origin --set-upstream gh-pages
+

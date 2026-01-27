@@ -9,6 +9,7 @@ class ProjectModel {
   List<String> images;
   List<String> tech;
   bool isPersonal;
+  String article;
 
   ProjectModel({
     required this.name,
@@ -21,6 +22,7 @@ class ProjectModel {
     required this.images,
     required this.tech,
     required this.isPersonal,
+    required this.article,
   });
 
   factory ProjectModel.fromJson(Map<String, dynamic> json) {
@@ -35,6 +37,7 @@ class ProjectModel {
       images: List<String>.from(json['images']),
       tech: List<String>.from(json['tech']),
       isPersonal: json['is_personal'],
+      article: json['article'] ?? "",
     );
   }
 }

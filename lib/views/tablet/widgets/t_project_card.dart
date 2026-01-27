@@ -3,6 +3,7 @@ import 'package:portofolio/values/colors.dart';
 import 'package:portofolio/values/styles.dart';
 import 'package:portofolio/widgets/project_icon_btn.dart';
 import 'package:flutter/material.dart';
+import 'package:portofolio/views/desktop/widgets/project_detail_dialog.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class TProjectCard extends StatefulWidget {
@@ -21,7 +22,14 @@ class _TProjectCardState extends State<TProjectCard> {
   Widget build(BuildContext context) {
     double _screenWidth = MediaQuery.of(context).size.width;
     return _screenWidth >= 1020
-        ? Column(
+        ? GestureDetector(
+            onTap: () {
+              showDialog(
+                context: context,
+                builder: (context) => ProjectDetailDialog(project: widget.project),
+              );
+            },
+            child: Column(
             children: [
               MouseRegion(
                 cursor: SystemMouseCursors.click,
@@ -129,8 +137,15 @@ class _TProjectCardState extends State<TProjectCard> {
                 indent: 450,
               ),
             ],
-          )
-        : Container(
+          ))
+        : GestureDetector(
+            onTap: () {
+              showDialog(
+                context: context,
+                builder: (context) => ProjectDetailDialog(project: widget.project),
+              );
+            },
+            child: Container(
             height: 350,
             width: double.infinity,
             margin: const EdgeInsets.symmetric(vertical: 10),
@@ -213,6 +228,6 @@ class _TProjectCardState extends State<TProjectCard> {
                 ),
               ),
             ),
-          );
+          ));
   }
 }

@@ -42,6 +42,7 @@ class ProjectsController {
           playstoreLink: texts.projects.projects[i].playstore_link,
           tech: _loadedTech,
           type: texts.projects.projects[i].type,
+          article: texts.projects.projects[i].article,
         );
         i++;
         _loadedProjects.add(project);

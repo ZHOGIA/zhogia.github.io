@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 380 (190 per locale)
+/// Strings: 394 (197 per locale)
 ///
-/// Built on 2025-11-30 at 02:13 UTC
+/// Built on 2026-01-27 at 12:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -430,6 +430,7 @@ class _LocaleProjects$projects$0i0$Id {
 		'Flutter',
 	];
 	String get type => 'Website';
+	String get article => 'Dibuat menggunakan Flutter Web untuk performa yang optimal dan animasi yang halus. Proyek ini menampilkan berbagai proyek lain yang pernah saya kerjakan.';
 }
 
 // Path: projects.projects.1
@@ -454,6 +455,7 @@ class _LocaleProjects$projects$0i1$Id {
 		'Figma',
 	];
 	String get type => 'Aplikasi';
+	String get article => 'Aplikasi E-Learning ini memungkinkan siswa untuk belajar secara online dengan materi yang lengkap dan interaktif. Dibangun dengan Java dan Firebase.';
 }
 
 // Path: projects.projects.2
@@ -478,6 +480,7 @@ class _LocaleProjects$projects$0i2$Id {
 		'Figma',
 	];
 	String get type => 'Aplikasi';
+	String get article => 'Game balap sederhana DUOCARS dibuat menggunakan Unity Engine. Tujuan permainan adalah menghindari rintangan dengan dua mobil sekaligus.';
 }
 
 // Path: projects.projects.3
@@ -504,6 +507,7 @@ class _LocaleProjects$projects$0i3$Id {
 		'Python',
 	];
 	String get type => 'Website';
+	String get article => 'Proyek ini memodifikasi stoplamp motor standar menjadi tampilan LED Matrix yang dapat diprogram. Menggunakan ESP8266 untuk kontrol nirkabel.';
 }
 
 // Path: projects.projects.4
@@ -531,6 +535,7 @@ class _LocaleProjects$projects$0i4$Id {
 		'C++',
 	];
 	String get type => 'Aplikasi';
+	String get article => 'Sistem keamanan motor pintar berbasis IoT menggunakan ESP32. Memungkinkan keyless entry dan pelacakan GPS melalui aplikasi Android.';
 }
 
 // Path: projects.projects.5
@@ -555,6 +560,7 @@ class _LocaleProjects$projects$0i5$Id {
 		'ESP8266',
 	];
 	String get type => 'Program';
+	String get article => 'Modul jam digital untuk sepeda motor dengan sinkronisasi waktu internet via WiFi menggunakan ESP8266 dan RTC DS3231.';
 }
 
 // Path: projects.projects.6
@@ -579,6 +585,7 @@ class _LocaleProjects$projects$0i6$Id {
 		'Firebase',
 	];
 	String get type => 'Aplikasi';
+	String get article => 'Aplikasi manajemen inventaris untuk usaha fotokopi. Fitur termasuk pencarian barang, update stok, dan laporan penjualan. Dibangun dengan .NET dan Firebase.';
 }
 
 // Path: skills.skills.0
@@ -1029,7 +1036,8 @@ class _LocaleProjects$projects$0i0$En implements _LocaleProjects$projects$0i0$Id
 		'Dart',
 		'Flutter',
 	];
-	@override String get type => 'Website';
+	@override String get type => 'Application';
+	@override String get article => 'Dibuat menggunakan Flutter Web untuk performa yang optimal dan animasi yang halus. Proyek ini menampilkan berbagai proyek lain yang pernah saya kerjakan.';
 }
 
 // Path: projects.projects.1
@@ -1054,6 +1062,7 @@ class _LocaleProjects$projects$0i1$En implements _LocaleProjects$projects$0i1$Id
 		'Figma',
 	];
 	@override String get type => 'Application';
+	@override String get article => 'Aplikasi E-Learning ini memungkinkan siswa untuk belajar secara online dengan materi yang lengkap dan interaktif. Dibangun dengan Java dan Firebase.';
 }
 
 // Path: projects.projects.2
@@ -1078,6 +1087,7 @@ class _LocaleProjects$projects$0i2$En implements _LocaleProjects$projects$0i2$Id
 		'Figma',
 	];
 	@override String get type => 'Application';
+	@override String get article => 'Game balap sederhana DUOCARS dibuat menggunakan Unity Engine. Tujuan permainan adalah menghindari rintangan dengan dua mobil sekaligus.';
 }
 
 // Path: projects.projects.3
@@ -1104,6 +1114,7 @@ class _LocaleProjects$projects$0i3$En implements _LocaleProjects$projects$0i3$Id
 		'Python',
 	];
 	@override String get type => 'Website';
+	@override String get article => 'Proyek ini memodifikasi stoplamp motor standar menjadi tampilan LED Matrix yang dapat diprogram. Menggunakan ESP8266 untuk kontrol nirkabel.';
 }
 
 // Path: projects.projects.4
@@ -1131,6 +1142,7 @@ class _LocaleProjects$projects$0i4$En implements _LocaleProjects$projects$0i4$Id
 		'C++',
 	];
 	@override String get type => 'Application';
+	@override String get article => 'Sistem keamanan motor pintar berbasis IoT menggunakan ESP32. Memungkinkan keyless entry dan pelacakan GPS melalui aplikasi Android.';
 }
 
 // Path: projects.projects.5
@@ -1155,6 +1167,7 @@ class _LocaleProjects$projects$0i5$En implements _LocaleProjects$projects$0i5$Id
 		'ESP8266',
 	];
 	@override String get type => 'Programme';
+	@override String get article => 'Modul jam digital untuk sepeda motor dengan sinkronisasi waktu internet via WiFi menggunakan ESP8266 dan RTC DS3231.';
 }
 
 // Path: projects.projects.6
@@ -1179,6 +1192,7 @@ class _LocaleProjects$projects$0i6$En implements _LocaleProjects$projects$0i6$Id
 		'Firebase',
 	];
 	@override String get type => 'Application';
+	@override String get article => 'Aplikasi manajemen inventaris untuk usaha fotokopi. Fitur termasuk pencarian barang, update stok, dan laporan penjualan. Dibangun dengan .NET dan Firebase.';
 }
 
 // Path: skills.skills.0
@@ -1416,6 +1430,7 @@ extension on Translations {
 			case 'projects.projects.0.tech.0': return 'Dart';
 			case 'projects.projects.0.tech.1': return 'Flutter';
 			case 'projects.projects.0.type': return 'Website';
+			case 'projects.projects.0.article': return 'Dibuat menggunakan Flutter Web untuk performa yang optimal dan animasi yang halus. Proyek ini menampilkan berbagai proyek lain yang pernah saya kerjakan.';
 			case 'projects.projects.1.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png';
 			case 'projects.projects.1.description': return 'Proyek akhir skripsi.';
 			case 'projects.projects.1.external_link': return '';
@@ -1427,6 +1442,7 @@ extension on Translations {
 			case 'projects.projects.1.tech.1': return 'Firebase';
 			case 'projects.projects.1.tech.2': return 'Figma';
 			case 'projects.projects.1.type': return 'Aplikasi';
+			case 'projects.projects.1.article': return 'Aplikasi E-Learning ini memungkinkan siswa untuk belajar secara online dengan materi yang lengkap dan interaktif. Dibangun dengan Java dan Firebase.';
 			case 'projects.projects.2.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png';
 			case 'projects.projects.2.description': return 'Membuat game dengan Unity (DUOCARS)';
 			case 'projects.projects.2.external_link': return '';
@@ -1438,6 +1454,7 @@ extension on Translations {
 			case 'projects.projects.2.tech.1': return 'Firebase';
 			case 'projects.projects.2.tech.2': return 'Figma';
 			case 'projects.projects.2.type': return 'Aplikasi';
+			case 'projects.projects.2.article': return 'Game balap sederhana DUOCARS dibuat menggunakan Unity Engine. Tujuan permainan adalah menghindari rintangan dengan dua mobil sekaligus.';
 			case 'projects.projects.3.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png';
 			case 'projects.projects.3.description': return 'Membuat stoplamp agar terlihat kekinian menggunakan LED Matrix dan ESP8266';
 			case 'projects.projects.3.external_link': return '';
@@ -1451,6 +1468,7 @@ extension on Translations {
 			case 'projects.projects.3.tech.3': return 'HTML';
 			case 'projects.projects.3.tech.4': return 'Python';
 			case 'projects.projects.3.type': return 'Website';
+			case 'projects.projects.3.article': return 'Proyek ini memodifikasi stoplamp motor standar menjadi tampilan LED Matrix yang dapat diprogram. Menggunakan ESP8266 untuk kontrol nirkabel.';
 			case 'projects.projects.4.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png';
 			case 'projects.projects.4.description': return 'Proyek motor dengan ESP32 untuk meremote motor agar bisa dinyalakan dengan seluler serta melacak keberadaan motor';
 			case 'projects.projects.4.external_link': return '';
@@ -1465,6 +1483,7 @@ extension on Translations {
 			case 'projects.projects.4.tech.4': return 'C';
 			case 'projects.projects.4.tech.5': return 'C++';
 			case 'projects.projects.4.type': return 'Aplikasi';
+			case 'projects.projects.4.article': return 'Sistem keamanan motor pintar berbasis IoT menggunakan ESP32. Memungkinkan keyless entry dan pelacakan GPS melalui aplikasi Android.';
 			case 'projects.projects.5.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg';
 			case 'projects.projects.5.description': return 'Proyek menampilkan waktu untuk sepeda motor menggunakan ESP 8266 dengan modul RTC DS3231. Dan dapat mencari wifi untuk terhubung ke internet berfungsi untuk memperbaiki waktu jika waktu ditampilkan tidak sesuai atau tidak akurat.';
 			case 'projects.projects.5.external_link': return '';
@@ -1476,6 +1495,7 @@ extension on Translations {
 			case 'projects.projects.5.tech.1': return 'C++';
 			case 'projects.projects.5.tech.2': return 'ESP8266';
 			case 'projects.projects.5.type': return 'Program';
+			case 'projects.projects.5.article': return 'Modul jam digital untuk sepeda motor dengan sinkronisasi waktu internet via WiFi menggunakan ESP8266 dan RTC DS3231.';
 			case 'projects.projects.6.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png';
 			case 'projects.projects.6.description': return 'Membuat aplikasi untuk mengelola stok barang pada usaha Photocopy, Terintegrasi dengan Firebase sebagai database-nya.';
 			case 'projects.projects.6.external_link': return '';
@@ -1487,6 +1507,7 @@ extension on Translations {
 			case 'projects.projects.6.tech.1': return '.NET';
 			case 'projects.projects.6.tech.2': return 'Firebase';
 			case 'projects.projects.6.type': return 'Aplikasi';
+			case 'projects.projects.6.article': return 'Aplikasi manajemen inventaris untuk usaha fotokopi. Fitur termasuk pencarian barang, update stok, dan laporan penjualan. Dibangun dengan .NET dan Firebase.';
 			case 'skills.skills.0.img': return 'https://img.icons8.com/?size=512&id=13679&format=png';
 			case 'skills.skills.0.name': return 'Java';
 			case 'skills.skills.1.img': return 'https://img.icons8.com/?size=512&id=55251&format=png';
@@ -1613,7 +1634,8 @@ extension on _LocaleEn {
 			case 'projects.projects.0.playstore_link': return '';
 			case 'projects.projects.0.tech.0': return 'Dart';
 			case 'projects.projects.0.tech.1': return 'Flutter';
-			case 'projects.projects.0.type': return 'Website';
+			case 'projects.projects.0.type': return 'Application';
+			case 'projects.projects.0.article': return 'Dibuat menggunakan Flutter Web untuk performa yang optimal dan animasi yang halus. Proyek ini menampilkan berbagai proyek lain yang pernah saya kerjakan.';
 			case 'projects.projects.1.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png';
 			case 'projects.projects.1.description': return 'Final thesis project.';
 			case 'projects.projects.1.external_link': return '';
@@ -1625,6 +1647,7 @@ extension on _LocaleEn {
 			case 'projects.projects.1.tech.1': return 'Firebase';
 			case 'projects.projects.1.tech.2': return 'Figma';
 			case 'projects.projects.1.type': return 'Application';
+			case 'projects.projects.1.article': return 'Aplikasi E-Learning ini memungkinkan siswa untuk belajar secara online dengan materi yang lengkap dan interaktif. Dibangun dengan Java dan Firebase.';
 			case 'projects.projects.2.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png';
 			case 'projects.projects.2.description': return 'Creating a game with Unity (DUOCARS).';
 			case 'projects.projects.2.external_link': return '';
@@ -1636,6 +1659,7 @@ extension on _LocaleEn {
 			case 'projects.projects.2.tech.1': return 'Firebase';
 			case 'projects.projects.2.tech.2': return 'Figma';
 			case 'projects.projects.2.type': return 'Application';
+			case 'projects.projects.2.article': return 'Game balap sederhana DUOCARS dibuat menggunakan Unity Engine. Tujuan permainan adalah menghindari rintangan dengan dua mobil sekaligus.';
 			case 'projects.projects.3.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png';
 			case 'projects.projects.3.description': return 'Creating a modern-looking stoplamp using an LED Matrix and ESP8266.';
 			case 'projects.projects.3.external_link': return '';
@@ -1649,6 +1673,7 @@ extension on _LocaleEn {
 			case 'projects.projects.3.tech.3': return 'HTML';
 			case 'projects.projects.3.tech.4': return 'Python';
 			case 'projects.projects.3.type': return 'Website';
+			case 'projects.projects.3.article': return 'Proyek ini memodifikasi stoplamp motor standar menjadi tampilan LED Matrix yang dapat diprogram. Menggunakan ESP8266 untuk kontrol nirkabel.';
 			case 'projects.projects.4.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png';
 			case 'projects.projects.4.description': return 'A motor project using ESP32 to remotely start the motor via a mobile device and track its location.';
 			case 'projects.projects.4.external_link': return '';
@@ -1663,6 +1688,7 @@ extension on _LocaleEn {
 			case 'projects.projects.4.tech.4': return 'C';
 			case 'projects.projects.4.tech.5': return 'C++';
 			case 'projects.projects.4.type': return 'Application';
+			case 'projects.projects.4.article': return 'Sistem keamanan motor pintar berbasis IoT menggunakan ESP32. Memungkinkan keyless entry dan pelacakan GPS melalui aplikasi Android.';
 			case 'projects.projects.5.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg';
 			case 'projects.projects.5.description': return 'A time display project for motorcycles using the ESP8266 and RTC DS3231 module. The device can search for available Wi-Fi networks to connect to the internet, allowing it to automatically synchronize and correct the time if the displayed time is inaccurate.';
 			case 'projects.projects.5.external_link': return '';
@@ -1674,6 +1700,7 @@ extension on _LocaleEn {
 			case 'projects.projects.5.tech.1': return 'C++';
 			case 'projects.projects.5.tech.2': return 'ESP8266';
 			case 'projects.projects.5.type': return 'Programme';
+			case 'projects.projects.5.article': return 'Modul jam digital untuk sepeda motor dengan sinkronisasi waktu internet via WiFi menggunakan ESP8266 dan RTC DS3231.';
 			case 'projects.projects.6.cover_img': return 'https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png';
 			case 'projects.projects.6.description': return 'Developed an application to manage inventory for a photocopy business, integrated with Firebase as the database.';
 			case 'projects.projects.6.external_link': return '';
@@ -1685,6 +1712,7 @@ extension on _LocaleEn {
 			case 'projects.projects.6.tech.1': return '.NET';
 			case 'projects.projects.6.tech.2': return 'Firebase';
 			case 'projects.projects.6.type': return 'Application';
+			case 'projects.projects.6.article': return 'Aplikasi manajemen inventaris untuk usaha fotokopi. Fitur termasuk pencarian barang, update stok, dan laporan penjualan. Dibangun dengan .NET dan Firebase.';
 			case 'skills.skills.0.img': return 'https://img.icons8.com/?size=512&id=13679&format=png';
 			case 'skills.skills.0.name': return 'Java';
 			case 'skills.skills.1.img': return 'https://img.icons8.com/?size=512&id=55251&format=png';

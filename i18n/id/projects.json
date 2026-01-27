@@ -13,7 +13,8 @@
                 "Dart",
                 "Flutter"
             ],
-            "type": "Website"
+            "type": "Website",
+            "article": "Dibuat menggunakan Flutter Web untuk performa yang optimal dan animasi yang halus. Proyek ini menampilkan berbagai proyek lain yang pernah saya kerjakan."
         },
         {
             "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/elearning.png",
@@ -29,7 +30,8 @@
                 "Firebase",
                 "Figma"
             ],
-            "type": "Aplikasi"
+            "type": "Aplikasi",
+            "article": "Aplikasi E-Learning ini memungkinkan siswa untuk belajar secara online dengan materi yang lengkap dan interaktif. Dibangun dengan Java dan Firebase."
         },
         {
             "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/duocars.png",
@@ -45,7 +47,8 @@
                 "Firebase",
                 "Figma"
             ],
-            "type": "Aplikasi"
+            "type": "Aplikasi",
+            "article": "Game balap sederhana DUOCARS dibuat menggunakan Unity Engine. Tujuan permainan adalah menghindari rintangan dengan dua mobil sekaligus."
         },
         {
             "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/ledmatrix.png",
@@ -63,7 +66,8 @@
                 "HTML",
                 "Python"
             ],
-            "type": "Website"
+            "type": "Website",
+            "article": "Proyek ini memodifikasi stoplamp motor standar menjadi tampilan LED Matrix yang dapat diprogram. Menggunakan ESP8266 untuk kontrol nirkabel."
         },
         {
             "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/keyless.png",
@@ -82,7 +86,8 @@
                 "C",
                 "C++"
             ],
-            "type": "Aplikasi"
+            "type": "Aplikasi",
+            "article": "Sistem keamanan motor pintar berbasis IoT menggunakan ESP32. Memungkinkan keyless entry dan pelacakan GPS melalui aplikasi Android."
         },
         {
             "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/PXL_20250531_193947682.jpg",
@@ -98,7 +103,8 @@
                 "C++",
                 "ESP8266"
             ],
-            "type": "Program"
+            "type": "Program",
+            "article": "Modul jam digital untuk sepeda motor dengan sinkronisasi waktu internet via WiFi menggunakan ESP8266 dan RTC DS3231."
         },
         {
             "cover_img": "https://raw.githubusercontent.com/ZHOGIA/zhogia.github.io/main/media/images/daftarharga1.png",
@@ -114,7 +120,8 @@
                 ".NET",
                 "Firebase"
             ],
-            "type": "Aplikasi"
+            "type": "Aplikasi",
+            "article": "Aplikasi manajemen inventaris untuk usaha fotokopi. Fitur termasuk pencarian barang, update stok, dan laporan penjualan. Dibangun dengan .NET dan Firebase."
         }
     ]
 }
